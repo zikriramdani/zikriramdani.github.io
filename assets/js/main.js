@@ -90,6 +90,10 @@ function setup_scrollreveal()
             duration: 1200,
             delay: 700
         });
+        var content_config = $.extend(false, default_config, {
+            duration: 1200,
+            delay: 1000
+        });
         var footer_config = $.extend(false, default_config, {
             duration: 1500,
             distance: 0,
@@ -99,6 +103,7 @@ function setup_scrollreveal()
         var default_delay = 175;
 
         sr.reveal('.a-header', header_config, default_delay);
+        sr.reveal('.a-content', content_config, default_delay);
         sr.reveal('.a-footer', footer_config, default_delay);
 
     }
