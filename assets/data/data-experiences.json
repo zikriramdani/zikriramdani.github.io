@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name_pt": "PT SHARING VISION INDONESIA",
+    "jenis_pekerjaan": "Purna Waktu",
+    "position": "Web Developers",
+    "start_date": "Agust 2021",
+    "end_date" : "Present",
+    "location": "Bandung",
+    "job_desc": "<p>Project BRI ( Internal )<br><br>- GIT<br>- Slicing PSD to React JS<br>- Integrasi API to React JS<br>- Membuat API ( Golang )<br></p>"
+  },
+  {
+    "id": 2,
+    "name_pt": "PT TEKNOLOGI HANDAL LANCAR",
+    "jenis_pekerjaan": "Purna Waktu",
+    "position": "Web Developers",
+    "start_date": "Feb 2020",
+    "end_date" : "Jul 2021",
+    "location": "Tangerang Selatan",
+    "job_desc": "<p>Project Robotic<br><br>- GIT<br>- Database Mysql ( Sequelize )<br>- Membuat API ( Node JS )<br>- Membuat Web Server ( Node JS )<br>- Slicing PSD to Express JS<br>- Realtime Control ( Socket.io )<br>- Deploy Staging ( VPS )<br></p>"
+  },
+  {
+    "id": 3,
+    "name_pt": "PT AKO MEDIA ASIA",
+    "jenis_pekerjaan": "Purna Waktu",
+    "position": "Web Developers",
+    "start_date": "Jun 2019",
+    "end_date" : "Jan 2020",
+    "location": "Jakarta Barat",
+    "job_desc": "<p>Project DuniaGames<br><br>- Git<br>- Slicing PSD to Angular<br>- Integrasi API to Angular<br>- Bugs dan Fix ( Angular )<br>- Deploy Staging dan Prod ( Os Ubuntu (Terminal dan Filezilla )</p>"
+  },
+  {
+    "id": 4,
+    "name_pt": "PT YAMISOK TECH INDONESIA",
+    "jenis_pekerjaan": "Purna Waktu",
+    "position": "Web Developers",
+    "start_date": "Sep 2017",
+    "end_date" : "Mei 2019",
+    "location": "Tangerang Selatan",
+    "job_desc": "<p>- Git<br>- Slicing PSD to Laravel / Vue Js<br>- Function data dynamic ( Laravel dan Vue Js )<br>- Bugs dan Fix ( Laravel dan Vue Js )</p>"
+  },
+  {
+    "id": 5,
+    "name_pt": "THECONVERSION",
+    "jenis_pekerjaan": "Paruh Waktu",
+    "position": "Web Developers",
+    "start_date": "Jan 2015",
+    "end_date" : "Sep 2016",
+    "location": "Tangerang Selatan",
+    "job_desc": "<p>- Membuat Website ( Wordpress )<br>- Membuat Landing Page ( Html, Css dan Javascript )<br>- Mengelola/Membuat cpanel server untuk client ( WHM dan Cpanel )</p>"
+  },
+  {
+    "id": 5,
+    "name_pt": "PT TDW RESOURCES",
+    "jenis_pekerjaan": "Paruh Waktu",
+    "position": "Web Developers",
+    "start_date": "Mei 2015",
+    "end_date" : "Agust 2015",
+    "location": "Tangerang Selatan",
+    "job_desc": "<p>- Membuat Website ( Wordpress )<br>- Membuat Landing Page ( Html, Css dan Javascript )<br>- Membuat Cloning Website</p>"
+  }
+]
