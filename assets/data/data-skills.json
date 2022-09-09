@@ -81,16 +81,21 @@
   },
   {
     "id": 17,
+    "name": "TYPESCRIPT",
+    "percents": 60
+  },
+  {
+    "id": 18,
     "name": "JQUERY",
     "percents": 80
   },
   {
-    "id": 18,
+    "id": 19,
     "name": "MYSQL / MYSQL SEQUELIZE",
     "percents": 70
   },
   {
-    "id": 19,
+    "id": 20,
     "name": "CMS",
     "percents": 80
   }

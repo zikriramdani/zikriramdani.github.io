@@ -120,12 +120,10 @@ const Footers = () => {
                               <div className="o-content__body">
                                   <h1 className="c-brand__title  t-title">
                                       <span className="c-brand__sizer  c-brand__sizer--sm a-content">
-                                          <span className="a-footer  c-brand__first-word  t-title__first-word"
-                                          data-aos="fade-down" data-aos-delay="1000">
+                                          <span className="a-footer  c-brand__first-word  t-title__first-word">
                                               Zikri
                                           </span>
-                                          <span className="a-footer  c-brand__second-word  t-title__second-word"
-                                          data-aos="fade-down" data-aos-delay="1200">
+                                          <span className="a-footer c-brand__second-word t-title__second-word">
                                               Ramdani
                                           </span>
                                       </span>
@@ -135,7 +133,7 @@ const Footers = () => {
 
                       </div>
 
-                      <ul className="c-footer__social-buttons  c-social-buttons  o-content__body" data-aos="fade-down" data-aos-delay="1200">
+                      <ul className="c-footer__social-buttons  c-social-buttons  o-content__body">
                           <li className="a-footer a-content">
                               <a href="https://zikriramdani.github.io" className="c-social-button  t-social-button">
                                   <i className="fa  fa-lg  fa-dribbble"></i>
