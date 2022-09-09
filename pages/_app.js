@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, FunctionComponent } from "react";
 import { Provider } from 'react-redux';
 import { createWrapper } from 'next-redux-wrapper';
 import store from '../redux/store';
@@ -14,6 +14,8 @@ import "../styles/whatsapp/floating-wpp.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
+import dynamic from 'next/dynamic';
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
@@ -28,7 +30,12 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
+const withNoSSR = (Component) => dynamic(
+  () => Promise.resolve(Component),
+  { ssr: false },
+);
+
 // initialize store and wrapper store
 const makeStore = () => store;
 const wrapper = createWrapper(makeStore);
-export default wrapper.withRedux(MyApp);
+export default withNoSSR(wrapper.withRedux(MyApp));
