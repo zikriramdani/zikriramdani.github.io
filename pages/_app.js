@@ -14,8 +14,6 @@ import "../styles/whatsapp/floating-wpp.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 
-import dynamic from 'next/dynamic';
-
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
@@ -30,12 +28,7 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-const withNoSSR = (Component) => dynamic(
-  () => Promise.resolve(Component),
-  { ssr: false },
-);
-
 // initialize store and wrapper store
 const makeStore = () => store;
 const wrapper = createWrapper(makeStore);
-export default wrapper.withRedux(withNoSSR(MyApp));
+export default wrapper.withRedux(MyApp);
