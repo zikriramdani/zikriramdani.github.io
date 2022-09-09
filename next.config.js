@@ -6,6 +6,8 @@ const nextConfig = {
     loader: "zikriramdani",
     path: "",
   },
+  basePath: "/",
+  assetPrefix: "/",
 }
 
 module.exports = nextConfig
