@@ -52,7 +52,7 @@ const Certificates = () => {
               <div className="o-grid o-grid--gallery">
 
                 {certificatesList.map((item, i) => (
-                  <div className="o-grid__col-sm-6 o-grid__col-xs-12 a-content" key={i} data-aos="flip-right" data-aos-delay={i+1 + "00"}>
+                  <div className="o-grid__col-sm-6 o-grid__col-xs-6 a-content" key={i} data-aos="flip-right" data-aos-delay={i+1 + "00"}>
                     <a className="c-image-overlay t-image-overlay js-lightbox" 
                     data-lightbox-hidpi="" data-lightbox-gallery="portfolio"
                     title={item.name} onClick={() => setIndex(i)}>
