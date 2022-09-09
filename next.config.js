@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // basePath: '/',
+  images: {
+    loader: "zikriramdani",
+    path: "",
+  },
 }
 
 module.exports = nextConfig
