@@ -38,4 +38,4 @@ const withNoSSR = (Component) => dynamic(
 // initialize store and wrapper store
 const makeStore = () => store;
 const wrapper = createWrapper(makeStore);
-export default withNoSSR(wrapper.withRedux(MyApp));
+export default wrapper.withRedux(withNoSSR(MyApp));
