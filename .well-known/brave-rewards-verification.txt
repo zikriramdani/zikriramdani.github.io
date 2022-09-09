@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: zikriramdani.github.io
+Token: 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

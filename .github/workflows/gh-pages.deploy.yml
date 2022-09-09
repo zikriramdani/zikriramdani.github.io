@@ -30,10 +30,11 @@ jobs:
         run: npm run export
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
+      - name: Add Brave Rewards Verification Token
+        run: cp -r .well-known/ out/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          github_token: ${{ secrets.TOKEN_SECRET }}
-          branch: production # The branch the action should deploy to.
+          branch: gh-pages # The branch the action should deploy to.
           folder: out # The folder the action should deploy.
           clean: true # Automatically remove deleted files from the deploy branch
