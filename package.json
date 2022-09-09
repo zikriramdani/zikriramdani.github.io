@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:production": "next build && next export"
+    "build:production": "next build && next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
