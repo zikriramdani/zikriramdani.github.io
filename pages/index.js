@@ -7,7 +7,7 @@ import Footers from "../components/Footers";
 import Intros from './components/intros'
 import Skills from './components/skills';
 import Experiences from './components/experiences';
-import Certificates from './components/Certificates';
+import Certificates from './components/certificates';
 import Educations from './components/educations';
 import Profiles from './components/profiles';
 import Portfolios from './components/portfolios';
