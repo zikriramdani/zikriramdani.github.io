@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: 'zikriramdani.github.io',
+  basePath: '/zikriramdani.github.io',
 }
 
 module.exports = nextConfig
