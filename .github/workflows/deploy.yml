@@ -2,34 +2,31 @@ name: Build and Deploy
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
         node-version: [14.x]
+
     steps:
+      - name: Checkout
       - uses: actions/checkout@v2
 
-      - name: Cache node modules
-        uses: actions/cache@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          path: "**/node_modules"
-          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          node-version: ${{ matrix.node-version }}
 
-      - name: Install 🔧
-        run: npm install
-
-      - name: Build 🔧
-        run: |
-          npm export
-          touch out/.nojekyll
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_SECRET }}
+      - name: Install and Build 🔧
+        run: yarn && yarn build && yarn export
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.6.1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.TOKEN_SECRET }}
           BRANCH: gh-pages # Nama branch yang akan digunakan.
