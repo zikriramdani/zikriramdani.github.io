@@ -28,5 +28,12 @@
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5"
   },
-  "homepage": "https://zikriramdani.github.io"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikriramdani/zikriramdani.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zikriramdani/zikriramdani.github.io/issues"
+  },
+  "homepage": "https://github.com/zikriramdani/zikriramdani.github.io"
 }
