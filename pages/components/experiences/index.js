@@ -50,7 +50,7 @@ const Experiences = () => {
                                         {item.name_pt}
                                     </h3>
                                     <h4 className="c-work__title">
-                                        {item.position}
+                                        {item.jenis_pekerjaan} - {item.position}
                                     </h4>
                                     <div className="c-work__location">
                                         {item.location}
