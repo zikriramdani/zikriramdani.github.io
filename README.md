@@ -13,6 +13,7 @@ Website ini dibuat menggunakan Framework Next JS dengan tambahan package-package
  4. Redux,
  5. Hooks,
  6. Menampilkan DATA JSON dari file JSON.
+ 7. AOS
 ```
 
 Redux
