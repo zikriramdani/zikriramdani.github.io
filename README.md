@@ -37,7 +37,7 @@ Keuntungan Menggunakan Redux
 Seperti yang sudah dijelaskan sebelumnya, Redux berkolaborasi dengan React,
 dengan menggunakan Redux React, Anda tidak akan membutuhkan waktu lama untuk meningkatkan state.
 
-Hal ini akan memudahkan Anda untuk untuk melacak action atau tindakan mana yang menyebabkan perubahan.
+Hal ini memudahkan Anda untuk untuk melacak action atau tindakan mana yang menyebabkan perubahan.
 Komponen-komponen yang ada pada Redux,
 tidak perlu menyediakan status atau metode apa pun bagi komponen turunannya
 untuk berbagi data di antara mereka sendiri.
