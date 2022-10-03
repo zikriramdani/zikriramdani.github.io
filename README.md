@@ -7,13 +7,14 @@ Please visit <https://zikriramdani.github.io>
 Website ini dibuat menggunakan Framework Next JS dengan tambahan package-package lain, seperti :
 
 ```bash
- 1. Yet-another-react-lightbox,
- 2. React-floating-whatsapp
- 3. Font Awesome,
- 4. Redux,
- 5. Hooks,
- 6. Menampilkan DATA JSON dari file JSON.
- 7. AOS
+ 1. Normalize.css,
+ 2. Font Awesome,
+ 3. Yet-another-react-lightbox,
+ 4. Menampilkan DATA JSON dari file JSON,
+ 5. Redux,
+ 6. Hooks,
+ 7. React-floating-whatsapp
+ 8. AOS.
 ```
 
 Redux
