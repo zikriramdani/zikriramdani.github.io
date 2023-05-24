@@ -1,16 +1,26 @@
 [
   {
     "id": 1,
+    "name_pt": "PT BRIDGENOTE INDONESIA",
+    "jenis_pekerjaan": "Purna Waktu",
+    "position": "Frontend Engineering",
+    "start_date": "Nov 2022",
+    "end_date" : "Present",
+    "location": "Jakarta Selatan",
+    "job_desc": "<p>- GIT<br>- Slicing Figma to React JS<br>- Integrasi API to React JS</p>"
+  },
+  {
+    "id": 2,
     "name_pt": "PT SHARING VISION INDONESIA",
     "jenis_pekerjaan": "Purna Waktu",
     "position": "Web Developers",
     "start_date": "Agust 2021",
-    "end_date" : "Present",
+    "end_date" : "Okt 2022",
     "location": "Bandung",
-    "job_desc": "<p>Project BRI ( Internal )<br><br>- GIT<br>- Slicing PSD to React JS<br>- Integrasi API to React JS<br>- Membuat API ( Golang )<br></p>"
+    "job_desc": "<p>Project Application Portofolio Management (APM) & DQ Rules<br><br>- GIT<br>- Slicing PSD to React JS<br>- Integrasi API to React JS<br>- Membuat API ( Golang )<br></p>"
   },
   {
-    "id": 2,
+    "id": 3,
     "name_pt": "PT TEKNOLOGI HANDAL LANCAR",
     "jenis_pekerjaan": "Purna Waktu",
     "position": "Web Developers",
@@ -50,7 +60,7 @@
     "job_desc": "<p>- Membuat Website ( Wordpress )<br>- Membuat Landing Page ( Html, Css dan Javascript )<br>- Mengelola/Membuat cpanel server untuk client ( WHM dan Cpanel )</p>"
   },
   {
-    "id": 5,
+    "id": 6,
     "name_pt": "PT TDW RESOURCES",
     "jenis_pekerjaan": "Paruh Waktu",
     "position": "Web Developers",
