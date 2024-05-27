@@ -1,8 +1,31 @@
-[
-  {
+[{
     "id": 1,
     "name": "GIT",
     "percents": 80
+  },
+  {
+    "id": 9,
+    "name": "NEXT JS",
+    "percents": 80
+  }, {
+    "id": 10,
+    "name": "REACT JS",
+    "percents": 80
+  },
+  {
+    "id": 5,
+    "name": "LARAVEL",
+    "percents": 80
+  },
+  {
+    "id": 13,
+    "name": "Docker",
+    "percents": 70
+  },
+  {
+    "id": 13,
+    "name": "Ubuntu",
+    "percents": 70
   },
   {
     "id": 2,
@@ -19,11 +42,7 @@
     "name": "EXPRESS JS",
     "percents": 80
   },
-  {
-    "id": 5,
-    "name": "LARAVEL",
-    "percents": 80
-  },
+
   {
     "id": 6,
     "name": "LUMEN",
@@ -39,16 +58,7 @@
     "name": "ANGULAR",
     "percents": 80
   },
-  {
-    "id": 9,
-    "name": "NEXT JS",
-    "percents": 80
-  },
-  {
-    "id": 10,
-    "name": "REACT JS",
-    "percents": 80
-  },
+
   {
     "id": 11,
     "name": "REACT NATIVE",
@@ -57,11 +67,6 @@
   {
     "id": 12,
     "name": "SOCKET.IO",
-    "percents": 80
-  },
-  {
-    "id": 13,
-    "name": "LARAVEL",
     "percents": 80
   },
   {

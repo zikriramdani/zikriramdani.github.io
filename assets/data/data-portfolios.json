@@ -1,9 +1,14 @@
-[
-  {
+[{
     "id": 1,
     "name": "PT BRIDGENOTE INDONESIA",
     "image": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA.png",
     "image_thumb": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA_thumb.png"
+  },
+  {
+    "id": 11,
+    "name": "PT BRIDGENOTE INDONESIA",
+    "image": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA-ADMIN.png",
+    "image_thumb": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA-ADMIN_thumb.png"
   },
   {
     "id": 2,
