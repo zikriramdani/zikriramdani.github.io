@@ -1,7 +1,7 @@
 import { actionType } from '../../action/skills/type';
 
 // Data Json
-import DataSkills from "../../../assets/data/data-skills.json";
+import DataSkills from '../../../assets/data/data-skills.json';
 
 // Read
 export const getListSkills = () => {
@@ -13,7 +13,7 @@ export const getListSkills = () => {
 // Read
 export const saveListSkills = (payload) => {
   return {
-      type: actionType.loadSkills,
-      payload: payload
+    type: actionType.loadSkills,
+    payload: payload
   };
 };

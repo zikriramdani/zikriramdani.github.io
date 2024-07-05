@@ -7,8 +7,7 @@ const Preloaders = () => {
         <div className="c-preloader__spinner  t-preloader__spinner"></div>
       </div>
     </>
-  )
-}
-        
+  );
+};
 
 export default Preloaders;

@@ -2530,3 +2530,45 @@ img[height] {
 .custom-class {
   z-index: 2;
 }
+
+/* Games */
+#Games {
+  display: none;
+  position: fixed;
+  bottom: 165px;
+  right: 15px;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.Games--btn {
+  background-color: #e0a80d;
+  color: black;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.Games--box {
+  background-color: #252b2f;
+  color: black;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+

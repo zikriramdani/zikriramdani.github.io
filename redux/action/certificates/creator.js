@@ -1,7 +1,7 @@
 import { actionType } from '../certificates/type';
 
 // Data Json
-import DataCertificates from "../../../assets/data/data-certificates.json";
+import DataCertificates from '../../../assets/data/data-certificates.json';
 
 // Read
 export const getListCertificates = () => {
@@ -13,7 +13,7 @@ export const getListCertificates = () => {
 // Read
 export const saveListCertificates = (payload) => {
   return {
-      type: actionType.loadCertificates,
-      payload: payload
+    type: actionType.loadCertificates,
+    payload: payload
   };
 };

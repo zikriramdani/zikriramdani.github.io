@@ -12,9 +12,7 @@ const Intros = () => {
             <header className="o-section__header t-section__header a-content">
               <div className="o-content">
                 <h2 className="o-section__heading">Intro</h2>
-                <div className="o-content__body o-section__description">
-                  What I am all about.
-                </div>
+                <div className="o-content__body o-section__description">What I am all about.</div>
               </div>
             </header>
 
@@ -23,9 +21,10 @@ const Intros = () => {
                 <div className="c-intro">
                   <div className="o-content__body a-content">
                     <p>
-                      I am a web developers who lives in Kunciran Indah, Tangerang City.<br/>
-                      - Want to Continue Learning dan<br/>
-                      - Not easily give up ( No bug No life).
+                      I am a web developers who lives in Kunciran Indah, Tangerang City.
+                      <br />
+                      - Want to Continue Learning dan
+                      <br />- Not easily give up ( No bug No life).
                     </p>
                   </div>
                 </div>
@@ -34,8 +33,8 @@ const Intros = () => {
           </div>
         </div>
       </section>
-    </>    
-  )
-}
-      
+    </>
+  );
+};
+
 export default Intros;

@@ -1,7 +1,7 @@
 import { actionType } from '../portfolios/type';
 
 // Data Json
-import DataPortfolios from "../../../assets/data/data-portfolios.json";
+import DataPortfolios from '../../../assets/data/data-portfolios.json';
 
 // Read
 export const getListPortfolios = () => {
@@ -13,7 +13,7 @@ export const getListPortfolios = () => {
 // Read
 export const saveListPortfolios = (payload) => {
   return {
-      type: actionType.loadPortfolios,
-      payload: payload
+    type: actionType.loadPortfolios,
+    payload: payload
   };
 };

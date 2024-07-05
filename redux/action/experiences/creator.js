@@ -1,7 +1,7 @@
 import { actionType } from '../../action/experiences/type';
 
 // Data Json
-import DataExperiences from "../../../assets/data/data-experiences.json";
+import DataExperiences from '../../../assets/data/data-experiences.json';
 
 // Read
 export const getListExperiences = () => {
@@ -13,7 +13,7 @@ export const getListExperiences = () => {
 // Read
 export const saveListExperiences = (payload) => {
   return {
-      type: actionType.loadExperiences,
-      payload: payload
+    type: actionType.loadExperiences,
+    payload: payload
   };
 };

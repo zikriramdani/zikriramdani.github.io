@@ -1,20 +1,20 @@
 import { initialState } from '../../action/skills/state';
 import { actionType } from '../../action/skills/type';
 
-export const skillsReducer = ( state = initialState, action ) => {
-  switch(action.type) {
+export const skillsReducer = (state = initialState, action) => {
+  switch (action.type) {
     // Read
     case actionType.loadSkills:
       state = {
         ...state,
         skillsList: action.payload
-      }
-      return state
+      };
+      return state;
     case actionType.loadSkillsResetData:
-      return initialState
+      return initialState;
     default:
-      return state
-  };
+      return state;
+  }
 };
 
 export default skillsReducer;

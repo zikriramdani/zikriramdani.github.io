@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Profiles = () => {
   return (
@@ -16,9 +16,7 @@ const Profiles = () => {
             >
               <div className="o-content a-content">
                 <h2 className="o-section__heading">Profiles</h2>
-                <div className="o-content__body o-section__description">
-                  Busy as usual.
-                </div>
+                <div className="o-content__body o-section__description">Busy as usual.</div>
               </div>
             </header>
 
@@ -97,10 +95,7 @@ const Profiles = () => {
                         </div>
                         <div className="o-media__body o-content__body">
                           <h3 className="t-link-container__item">Blogspot</h3>
-                          <p>
-                            Yes. I&apos;m also a blogger and here you find my
-                            writings.
-                          </p>
+                          <p>Yes. I&apos;m also a blogger and here you find my writings.</p>
                         </div>
                       </div>
                     </a>

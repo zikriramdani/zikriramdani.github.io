@@ -1,4 +1,4 @@
 export const actionType = {
-	loadExperiences: 'load-experiences',
-	loadExperiencesResetData: 'load-experiences-reset-data'
-}
+  loadExperiences: 'load-experiences',
+  loadExperiencesResetData: 'load-experiences-reset-data'
+};

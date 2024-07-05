@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Script from "next/script";
+import Head from 'next/head';
+import Script from 'next/script';
 
 const Heads = () => {
   return (
@@ -14,14 +14,20 @@ const Heads = () => {
 
         <meta content="CV Zikri Ramdani" property="og:title" />
         <meta content="I am a web developers." property="og:description" />
-        <meta content="https://zikriramdani.github.io/assets/images/header/avatar-new.jpeg" property="og:image" />
+        <meta
+          content="https://zikriramdani.github.io/assets/images/header/avatar-new.jpeg"
+          property="og:image"
+        />
         <meta content="https://zikriramdani.github.io/" property="og:url" />
 
         {/* <!-- Google Font: Lato --> */}
         {/* <link rel="stylesheet" href="/assets/fonts/Lato/fonts.css"  /> */}
-        
+
         {/* <!-- FontAwesome --> */}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
 
         {/* <!-- Nivo Lightbox--> */}
         {/* <link rel="stylesheet" href="/assets/plugins/nivo-lightbox/nivo-lightbox.css" />
@@ -73,7 +79,7 @@ const Heads = () => {
         `}
       </Script>
     </>
-  )
-}
+  );
+};
 
 export default Heads;

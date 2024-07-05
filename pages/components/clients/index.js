@@ -9,47 +9,217 @@ const Clients = () => {
   return (
     <>
       <section className="o-section t-section">
-        <div className="o-section__header-bg t-section__header">
-        </div>
-        <div className="o-section__content-bg t-section__content">
-        </div>
+        <div className="o-section__header-bg t-section__header"></div>
+        <div className="o-section__content-bg t-section__content"></div>
 
         <div className="o-container">
           <div className="o-section__container">
-            <header className="o-section__header t-section__header" data-aos="fade-left" data-aos-delay="0">
+            <header
+              className="o-section__header t-section__header"
+              data-aos="fade-left"
+              data-aos-delay="0"
+            >
               <div className="o-content a-content">
-                <h2 className="o-section__heading">Clients</h2>
-                <div className="o-content__body o-section__description">
-                  Happy people.
-                </div>
+                <h2 className="o-section__heading">Repositories</h2>
+                <div className="o-content__body o-section__description">Example Source Code</div>
               </div>
             </header>
 
             <div className="o-section__content t-section__content">
-              <ul className="c-clients o-content">
-                <li className="a-content" data-aos="fade-down" data-aos-delay="200">
-                  <a href="https://github.com/zikriramdani" target="_blank" rel="noreferrer"><img alt="" src="/assets/images/clients/github.png" /></a>
-                </li>
+              <div className="o-grid">
+                <div
+                  className="o-grid__col-xl-4 o-grid__col-sm-6"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                >
+                  <div className="o-content a-content">
+                    <a
+                      className="t-link-container"
+                      href="https://github.com/zikriramdani/aplikasi-sederhana-reactjs"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="o-media o-media--block">
+                        {/* <div className="o-media__figure">
+                          <div className="c-profile__icon">
+                            <i className="fa fa-lg fa-envira"></i>
+                          </div>
+                        </div> */}
+                        <div className="o-media__body o-content__body">
+                          <h3 className="t-link-container__item">aplikasi-sederhana-reactjs</h3>
+                        </div>
+                      </div>
+                    </a>
+                    <div>
+                      Demo:
+                      <a
+                        href="https://aplikasisederhanareact.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <p>KLIK DISINI!</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
-                <li className="a-content" data-aos="fade-down" data-aos-delay="400">
-                  <a href="#" target="_blank" rel="noreferrer"><img alt="" src="/assets/images/clients/google.png" /></a>
-                </li>
+                <div
+                  className="o-grid__col-xl-4 o-grid__col-sm-6"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                >
+                  <div className="o-content a-content">
+                    <a
+                      className="t-link-container"
+                      href="https://github.com/zikriramdani/app-vending-machine"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="o-media o-media--block">
+                        {/* <div className="o-media__figure">
+                          <div className="c-profile__icon">
+                            <i className="fa fa-lg fa-envira"></i>
+                          </div>
+                        </div> */}
+                        <div className="o-media__body o-content__body">
+                          <h3 className="t-link-container__item">aplikasi-sederhana-nextjs</h3>
+                        </div>
+                      </div>
+                    </a>
+                    <div>
+                      Demo:
+                      <a
+                        href="https://zikriramdani.github.io/app-vending-machine/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <p>KLIK DISINI!</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
+                <div
+                  className="o-grid__col-xl-4 o-grid__col-sm-6"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                >
+                  <div className="o-content a-content">
+                    <a
+                      className="t-link-container"
+                      href="https://github.com/zikriramdani/employee-managament"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="o-media o-media--block">
+                        {/* <div className="o-media__figure">
+                          <div className="c-profile__icon">
+                            <i className="fa fa-lg fa-envira"></i>
+                          </div>
+                        </div> */}
+                        <div className="o-media__body o-content__body">
+                          <h3 className="t-link-container__item">aplikasi-sederhana-angular</h3>
+                        </div>
+                      </div>
+                    </a>
+                    <div>
+                      Demo:
+                      <a
+                        href="https://employee-management.netlify.app"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <p>KLIK DISINI!</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
-                <li className="a-content" data-aos="fade-down" data-aos-delay="600">
-                  <a href="#" target="_blank" rel="noreferrer"><img alt="" src="/assets/images/clients/html5.png" /></a>
-                </li>
+                <div
+                  className="o-grid__col-xl-4 o-grid__col-sm-6"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                >
+                  <div className="o-content a-content">
+                    <a
+                      className="t-link-container"
+                      href="https://github.com/zikriramdani/vuejs2"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="o-media o-media--block">
+                        {/* <div className="o-media__figure">
+                          <div className="c-profile__icon">
+                            <i className="fa fa-lg fa-envira"></i>
+                          </div>
+                        </div> */}
+                        <div className="o-media__body o-content__body">
+                          <h3 className="t-link-container__item">aplikasi-sederhana-vuejs</h3>
+                        </div>
+                      </div>
+                    </a>
+                    <div>
+                      Demo:
+                      <a href="https://vuejs2.netlify.app/" target="_blank" rel="noreferrer">
+                        <p>KLIK DISINI!</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
-                <li className="a-content" data-aos="fade-down" data-aos-delay="800">
-                  <a href="#" target="_blank" rel="noreferrer"><img alt="" src="/assets/images/clients/youtube.png" /></a>
-                </li>
-              </ul>
+                <div
+                  className="o-grid__col-xl-4 o-grid__col-sm-6"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                >
+                  <div className="o-content a-content">
+                    <a
+                      className="t-link-container"
+                      href="https://github.com/zikriramdani/laravel2"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="o-media o-media--block">
+                        {/* <div className="o-media__figure">
+                          <div className="c-profile__icon">
+                            <i className="fa fa-lg fa-envira"></i>
+                          </div>
+                        </div> */}
+                        <div className="o-media__body o-content__body">
+                          <h3 className="t-link-container__item">aplikasi-sederhana-laravel</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div
+                  className="o-grid__col-xl-4 o-grid__col-sm-6"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                >
+                  <div className="o-content a-content">
+                    <a
+                      className="t-link-container"
+                      href="https://github.com/zikriramdani?tab=repositories"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="o-media o-media--block">
+                        <div className="o-media__body o-content__body">
+                          <h3 className="t-link-container__item">See All</h3>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 export default Clients;

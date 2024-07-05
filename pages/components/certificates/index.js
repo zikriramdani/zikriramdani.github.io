@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
-import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css";
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
 
 // import optional lightbox plugins
-import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
-import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
+import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
+import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { getListCertificates } from "../../../redux/action/certificates/creator";
+import { getListCertificates } from '../../../redux/action/certificates/creator';
 
 const Certificates = () => {
-  const certificatesList = useSelector((state) => state.certificates.certificatesList)
+  const certificatesList = useSelector((state) => state.certificates.certificatesList);
   const dispatch = useDispatch();
 
   const [index, setIndex] = useState(-1);
@@ -20,7 +20,7 @@ const Certificates = () => {
     src: image,
     srcSet: certificatesList.map((image) => ({
       src: image.image
-    })),
+    }))
   }));
 
   const fetchCertificatesList = async () => {
@@ -40,22 +40,33 @@ const Certificates = () => {
 
         <div className="o-container">
           <div className="o-section__container">
-            <header className="o-section__header t-section__header" data-aos="fade-left" data-aos-delay="0">
+            <header
+              className="o-section__header t-section__header"
+              data-aos="fade-left"
+              data-aos-delay="0"
+            >
               <div className="o-content a-content">
                 <h2 className="o-section__heading">Certificate</h2>
-                <div className="o-content__body o-section__description">
-                </div>
+                <div className="o-content__body o-section__description"></div>
               </div>
             </header>
 
             <div className="o-section__content t-section__content o-section__full-bottom-space">
               <div className="o-grid o-grid--gallery">
-
                 {certificatesList.map((item, i) => (
-                  <div className="o-grid__col-sm-6 o-grid__col-xs-6 a-content" key={i} data-aos="flip-right" data-aos-delay={i+1 + "00"}>
-                    <a className="c-image-overlay t-image-overlay js-lightbox" 
-                    data-lightbox-hidpi="" data-lightbox-gallery="portfolio"
-                    title={item.name} onClick={() => setIndex(i)}>
+                  <div
+                    className="o-grid__col-sm-6 o-grid__col-xs-6 a-content"
+                    key={i}
+                    data-aos="flip-right"
+                    data-aos-delay={i + 1 + '00'}
+                  >
+                    <a
+                      className="c-image-overlay t-image-overlay js-lightbox"
+                      data-lightbox-hidpi=""
+                      data-lightbox-gallery="portfolio"
+                      title={item.name}
+                      onClick={() => setIndex(i)}
+                    >
                       <img alt={item.name} src={item.image_thumb} />
                       <div className="c-image-overlay__content">
                         <h3>{item.name}</h3>
@@ -74,13 +85,12 @@ const Certificates = () => {
                   plugins={[Fullscreen, Thumbnails]}
                 />
               </div>
-              
             </div>
           </div>
         </div>
       </section>
-    </>    
-  )
-}
+    </>
+  );
+};
 
 export default Certificates;

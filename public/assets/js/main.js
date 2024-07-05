@@ -1,11 +1,11 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $('html').addClass('js-enabled');
   // setup_nivo_lightbox();
   // setup_dense();
   setup_wa();
-  $(window).load(function() {
-    $(".js-preloader").fadeOut(70, function() {
-      $(".js-main-container").fadeIn(70);
+  $(window).load(function () {
+    $('.js-preloader').fadeOut(70, function () {
+      $('.js-main-container').fadeIn(70);
       setup_scrollreveal();
       setup_progress_bar_animation();
     });
@@ -16,14 +16,14 @@ function setup_wa() {
   $('#WAButton').floatingWhatsApp({
     phone: '6281228883616',
     popupMessage: 'Halo, ada yang bisa dibantu?',
-    message: "",
+    message: '',
     showPopup: true,
     showOnIE: false,
     headerTitle: 'Chat with us on WhatsApp!',
     headerColor: '#25d366',
     backgroundColor: '#25d366',
     buttonImage: '<img src="assets/whatsapp/whatsapp.svg" />',
-    position: "right",
+    position: 'right',
     size: '60px',
     zIndex: '2'
   });
@@ -33,17 +33,20 @@ setup_wa();
 function setup_progress_bar_animation() {
   var $animation_elements = $("[class*='a-']");
   var $window = $(window);
-  $window.on('scroll resize', function() {
+  $window.on('scroll resize', function () {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
-    var window_bottom_position = (window_top_position + window_height);
-    $.each($animation_elements, function() {
+    var window_bottom_position = window_top_position + window_height;
+    $.each($animation_elements, function () {
       var $element = $(this);
       var element_height = $element.outerHeight();
       var element_top_position = $element.offset().top;
-      var element_bottom_position = (element_top_position + element_height);
+      var element_bottom_position = element_top_position + element_height;
       // Check to see if this current container is within viewport
-      if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+      if (
+        element_bottom_position >= window_top_position &&
+        element_top_position <= window_bottom_position
+      ) {
         $element.addClass('in-view');
         // Animate progress bar
         if ($element.hasClass('a-progress-bar')) {
@@ -61,7 +64,7 @@ function setup_progress_bar_animation() {
 function setup_dense() {
   if ($.isFunction($.fn.dense)) {
     $('img').dense({
-      'glue': '@'
+      glue: '@'
     });
   }
 }
@@ -105,14 +108,14 @@ function setup_nivo_lightbox() {
   if ($.isFunction($.fn.nivoLightbox)) {
     var $selector = $('.js-lightbox');
     // Hide all titles to prevent tooltip from showing
-    $selector.each(function() {
+    $selector.each(function () {
       var title = $(this).attr('title');
       $(this).attr('data-title', title);
       $(this).attr('title', '');
     });
     // On click, add titles back, so lightbox can display them
-    $selector.click(function() {
-      $selector.each(function() {
+    $selector.click(function () {
+      $selector.each(function () {
         var title = $(this).attr('data-title');
         $(this).attr('title', title);
       });
@@ -122,14 +125,14 @@ function setup_nivo_lightbox() {
       theme: 'default', // The lightbox theme to use
       keyboardNav: true, // Enable/Disable keyboard navigation (left/right/escape)
       clickOverlayToClose: true, // If false clicking the "close" button will be the only way to close the lightbox
-      onInit: function() {}, // Callback when lightbox has loaded
-      beforeShowLightbox: function() {}, // Callback before the lightbox is shown
-      afterShowLightbox: function(lightbox) {}, // Callback after the lightbox is shown
-      beforeHideLightbox: function() {}, // Callback before the lightbox is hidden
+      onInit: function () {}, // Callback when lightbox has loaded
+      beforeShowLightbox: function () {}, // Callback before the lightbox is shown
+      afterShowLightbox: function (lightbox) {}, // Callback after the lightbox is shown
+      beforeHideLightbox: function () {}, // Callback before the lightbox is hidden
       //afterHideLightbox: function(){},              // Callback after the lightbox is hidden
-      onPrev: function(element) {}, // Callback when the lightbox gallery goes to previous item
-      onNext: function(element) {}, // Callback when the lightbox gallery goes to next item
-      afterHideLightbox: function() {
+      onPrev: function (element) {}, // Callback when the lightbox gallery goes to previous item
+      onNext: function (element) {}, // Callback when the lightbox gallery goes to next item
+      afterHideLightbox: function () {
         // Remove title to prevent tooltip from showing
         $selector.attr('title', '');
       },

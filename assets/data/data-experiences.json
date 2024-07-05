@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "name_pt": "PT BRIDGENOTE INDONESIA",
     "jenis_pekerjaan": "Purna Waktu",
@@ -6,7 +7,7 @@
     "start_date": "Nov 2022",
     "end_date": "Present",
     "location": "Jakarta Selatan",
-    "job_desc": "<p>Project Accounting, Admin & API<br><br>- GIT<br>- Slicing Figma to React JS<br>- Integrasi API to React JS<br>- Upgrade Laravel 9 to 11<br>- Docker<br>- Ubuntu</p>"
+    "job_desc": "<p>Project Accounting, Admin & API<br><br>- GIT<br>- Slicing Figma to React JS<br>- Integrasi API to React JS<br>- BugFix<br>- Upgrade Laravel 9 to 11<br>- Docker<br>- Ubuntu</p>"
   },
   {
     "id": 2,

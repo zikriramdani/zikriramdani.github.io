@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "name": "GIT",
     "percents": 80
@@ -7,7 +8,8 @@
     "id": 9,
     "name": "NEXT JS",
     "percents": 80
-  }, {
+  },
+  {
     "id": 10,
     "name": "REACT JS",
     "percents": 80
