@@ -1,65 +1,65 @@
 {
-  "short_name": "CV",
+  "short_name": "CV Zikri Ramdani",
   "name": "CV Zikri Ramdani",
   "icons": [
     {
-      "src": "/512x512.png",
+      "src": "https://zikriramdani.github.io/512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/192x192.png",
+      "src": "https://zikriramdani.github.io/192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/512x512.png",
+      "src": "https://zikriramdani.github.io/512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "id": "/",
-  "start_url": "/",
+  "id": "https://zikriramdani.github.io/",
+  "start_url": "https://zikriramdani.github.io/",
   "background_color": "#000",
   "theme_color": "#f47629",
   "display": "standalone",
-  "scope": "/",
+  "scope": "https://zikriramdani.github.io/",
   "shortcuts": [
     {
-      "name": "Zikri Ramdani",
-      "short_name": "CV",
-      "description": "",
+      "name": "CV Zikri Ramdani",
+      "short_name": "CV Zikri Ramdani",
+      "description": "CV Zikri Ramdani",
       "url": "/today?source=pwa",
       "icons": [
         {
-          "src": "/192x192.png",
+          "src": "https://zikriramdani.github.io/192x192.png",
           "sizes": "192x192"
         }
       ]
     },
     {
-      "name": "Zikri Ramdani",
-      "short_name": "CV",
-      "description": "",
+      "name": "CV Zikri Ramdani",
+      "short_name": "CV Zikri Ramdani",
+      "description": "CV Zikri Ramdani",
       "url": "/tomorrow?source=pwa",
       "icons": [
         {
-          "src": "/192x192.png",
+          "src": "https://zikriramdani.github.io/192x192.png",
           "sizes": "192x192"
         }
       ]
     }
   ],
-  "description": "",
+  "description": "CV Zikri Ramdani",
   "screenshots": [
     {
-      "src": "/512x512.png",
+      "src": "https://zikriramdani.github.io/512x512.png",
       "type": "image/png",
       "sizes": "540x720",
       "form_factor": "narrow"
     },
     {
-      "src": "/512x512.png",
+      "src": "https://zikriramdani.github.io/512x512.png",
       "type": "image/png",
       "sizes": "720x540",
       "form_factor": "wide"
