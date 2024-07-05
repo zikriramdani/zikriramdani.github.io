@@ -10,11 +10,10 @@ Website ini dibuat menggunakan Framework Next JS dengan tambahan package-package
  1. Normalize.css,
  2. Font Awesome,
  3. Yet-another-react-lightbox,
- 4. Menampilkan DATA JSON dari file JSON,
- 5. Redux,
- 6. Hooks,
- 7. React-floating-whatsapp
- 8. AOS.
+ 4. Redux,
+ 5. Hooks,
+ 6. React-floating-whatsapp
+ 7. AOS.
 ```
 
 Redux
