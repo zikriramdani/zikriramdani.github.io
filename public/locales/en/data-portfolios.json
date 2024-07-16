@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "PT BRIDGENOTE INDONESIA",
+    "image": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA.webp",
+    "image_thumb": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA_thumb.webp"
+  },
+  {
+    "id": 11,
+    "name": "PT BRIDGENOTE INDONESIA",
+    "image": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA-ADMIN.webp",
+    "image_thumb": "/assets/images/portfolio/PT-BRIDGENOTE-INDONESIA-ADMIN_thumb.webp"
+  },
+  {
+    "id": 2,
+    "name": "PT SHARING VISION INDONESIA",
+    "image": "/assets/images/portfolio/DQ-RULES.webp",
+    "image_thumb": "/assets/images/portfolio/DQ-RULES_thumb.webp"
+  },
+  {
+    "id": 3,
+    "name": "PT TEKNOLOGI HANDAL LANCAR",
+    "image": "/assets/images/portfolio/dewa-game.webp",
+    "image_thumb": "/assets/images/portfolio/dewa-game_thumb.webp"
+  },
+  {
+    "id": 4,
+    "name": "PT AKO MEDIA ASIA",
+    "image": "/assets/images/portfolio/DUNIA-GAMES.webp",
+    "image_thumb": "/assets/images/portfolio/DUNIA-GAMES_thumb.webp"
+  },
+  {
+    "id": 5,
+    "name": "PT YAMISOK TECH INDONESIA",
+    "image": "/assets/images/portfolio/YAMISOK.webp",
+    "image_thumb": "/assets/images/portfolio/YAMISOK_thumb.webp"
+  },
+  {
+    "id": 6,
+    "name": "SPEAKER AUDIENCE",
+    "image": "/assets/images/portfolio/admin-webinar.webp",
+    "image_thumb": "/assets/images/portfolio/admin-webinar_thumb.webp"
+  },
+  {
+    "id": 7,
+    "name": "MASTER AFFILIATE<br/>( React )",
+    "image": "/assets/images/portfolio/master-affiliate-webinar.webp",
+    "image_thumb": "/assets/images/portfolio/master-affiliate-webinar_thumb.webp"
+  },
+  {
+    "id": 8,
+    "name": "BLOG",
+    "image": "/assets/images/portfolio/mobile-apps-webinar.jpeg",
+    "image_thumb": "/assets/images/portfolio/mobile-apps-webinar_thumb.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Landing Page",
+    "image": "/assets/images/portfolio/lp-squeze-webinar.webp",
+    "image_thumb": "/assets/images/portfolio/lp-squeze-webinar_thumb.webp"
+  }
+]

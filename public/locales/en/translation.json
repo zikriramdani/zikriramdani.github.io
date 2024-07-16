@@ -1,0 +1,82 @@
+{
+  "Top": "Top",
+  "Headers": {
+    "Web Developer": "Web Developer",
+    "Location": "Location",
+    "Phone": "Phone",
+    "Web": "Web",
+    "Email": "Email"
+  },
+  "Copied Successfully!": "Copied Successfully!",
+  "Failed to copy!": "Failed to copy!",
+  "Copied!": "Copied!",
+  "Kunciran Indah Tangerang City": "Kunciran Indah, Tangerang City",
+
+  "Intro": {
+    "Intro": "Intro",
+    "What I am all about": "What I am all about",
+    "Zikri Ramdani": "<p>Hello! My name is Zikri Ramdani, and I am a Web Developer with over 5 years of experience in web development. I am passionate about creating innovative and user-friendly web solutions, as well as skilled in modern technologies to build efficient and high-performance applications.<br /><br /><b>Goal:</b><br />I am committed to continuously learning and growing in technology, innovating, and delivering creative and effective web solutions. I also strive to stay updated with the latest industry trends and apply best practices in every project.<br /><br />I am very enthusiastic about bringing my expertise and experience to your team and look forward to contributing to the success of your projects. Thank you for your attention!</p>"
+  },
+
+  "Skills": {
+    "Skills": "Skills",
+    "Progress bars anyone": "Progress bars, anyone"
+  },
+
+  "Experience": {
+    "Experience": "Experience",
+    "Yes Ive been around": "Yes. I've been around"
+  },
+
+  "Certificate": {
+    "Certificate": "Certificate"
+  },
+
+  "Education": {
+    "Education": "Education",
+    "Lazy isnt in my vocabulary.": "Lazy isn't in my vocabulary.",
+    "Sarjana Komputer": "Bachelor of Computer Science",
+    "STMIK PGRI TANGERANG": "<p>STMIK PGRI TANGERANG is a computer education institution under the auspices of the PGRI Higher Education Foundation. The foundation carries out the noble mandate contained in the Preamble of the 1945 Constitution,which is the mission to educate the lives of the Indonesian people.<br/><br/><b>Cumulative Grade Point Average (GPA): 3.31</b></p>"
+  },
+
+  "Profiles": {
+    "Profiles": "Profiles",
+    "Busy as usual": "Busy as usual",
+    "All my open source projects for you analyze": "All my open source projects for you analyze.",
+    "Yes Im also a blogger and here you find my writings": "Yes. I'm also a blogger and here you find my writings."
+  },
+
+  "Portfolio": {
+    "Portfolio": "Portfolio",
+    "Here it gets interesting": "Here it gets interesting"
+  },
+
+  "Repositories": {
+    "Repositories": "Repositories",
+    "Example Source Code": "Example Source Code",
+    "Demo": "Demo",
+    "CLICK HERE": "CLICK HERE!",
+    "See All": "See All"
+  },
+
+  "Footers": {
+    "Contact": "Contact",
+    "Call me maybe": "Call me, maybe"
+  },
+
+  "Download CV": "<b>Download CV</b>",
+  "Select Language": "Select Language",
+  "Hello is there anything I can help with": "Hello, is there anything I can help with?",
+  "Type a message": "Type a message...",
+
+  "Error": {
+    "Brum": "Brum!!! Something went wrong.",
+    "Try again": "Try again"
+  },
+
+  "NotFound": {
+    "Page Not Found": "Page Not Found",
+    "Sorry the page you are looking for does not exist": "Sorry, the page you are looking for does not exist.",
+    "Go back to the homepage": "Go back to the homepage"
+  }
+}

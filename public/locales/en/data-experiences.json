@@ -1,0 +1,74 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "company_name": "PT BRIDGENOTE INDONESIA",
+      "employment_type": "Full Time",
+      "position": "Frontend Engineer",
+      "start_date": "Nov 2022",
+      "end_date": "Nov 2024",
+      "location": "South Jakarta",
+      "job_desc": "<p>Accounting, Admin & API Project<br><br>- GIT<br>- Converting Figma to React JS<br>- Integrating API with React JS<br>- Bug Fixes<br>- Upgrading Laravel from 9 to 11<br>- Docker<br>- Ubuntu</p>"
+    },
+    {
+      "id": 2,
+      "company_name": "PT SHARING VISION INDONESIA",
+      "employment_type": "Full Time",
+      "position": "Web Developer",
+      "start_date": "Aug 2021",
+      "end_date": "Oct 2022",
+      "location": "Bandung",
+      "job_desc": "<p>Application Portfolio Management (APM) & DQ Rules Project<br><br>- GIT<br>- Converting PSD to React JS<br>- Integrating API with React JS<br>- Creating APIs (Golang)<br></p>"
+    },
+    {
+      "id": 3,
+      "company_name": "PT TEKNOLOGI HANDAL LANCAR",
+      "employment_type": "Full Time",
+      "position": "Web Developer",
+      "start_date": "Feb 2020",
+      "end_date": "Jul 2021",
+      "location": "South Tangerang",
+      "job_desc": "<p>Robotics Project<br><br>- GIT<br>- Database MySQL (Sequelize)<br>- Creating APIs (Node.js)<br>- Building Web Servers (Node.js)<br>- Converting PSD to Express JS<br>- Real-Time Control (Socket.io)<br>- Deploying Staging (VPS)<br></p>"
+    },
+    {
+      "id": 4,
+      "company_name": "PT AKO MEDIA ASIA",
+      "employment_type": "Full Time",
+      "position": "Web Developer",
+      "start_date": "Jun 2019",
+      "end_date": "Jan 2020",
+      "location": "West Jakarta",
+      "job_desc": "<p>DuniaGames Project<br><br>- GIT<br>- Converting PSD to Angular<br>- Integrating API with Angular<br>- Bug Fixes (Angular)<br>- Deploying Staging and Production (Ubuntu OS via Terminal and Filezilla)</p>"
+    },
+    {
+      "id": 5,
+      "company_name": "PT YAMISOK TECH INDONESIA",
+      "employment_type": "Full Time",
+      "position": "Web Developer",
+      "start_date": "Sep 2017",
+      "end_date": "May 2019",
+      "location": "South Tangerang",
+      "job_desc": "<p>- GIT<br>- Converting PSD to Laravel/Vue JS<br>- Implementing Dynamic Data Functions (Laravel and Vue JS)<br>- Bug Fixes (Laravel and Vue JS)</p>"
+    },
+    {
+      "id": 6,
+      "company_name": "THECONVERSION",
+      "employment_type": "Part Time",
+      "position": "Web Developer",
+      "start_date": "Jan 2015",
+      "end_date": "Sep 2016",
+      "location": "South Tangerang",
+      "job_desc": "<p>- Building Websites (WordPress)<br>- Creating Landing Pages (HTML, CSS, and JavaScript)<br>- Managing/Setting up Client Servers (WHM and cPanel)</p>"
+    },
+    {
+      "id": 7,
+      "company_name": "PT TDW RESOURCES",
+      "employment_type": "Part Time",
+      "position": "Web Developer",
+      "start_date": "May 2015",
+      "end_date": "Aug 2015",
+      "location": "South Tangerang",
+      "job_desc": "<p>- Building Websites (WordPress)<br>- Creating Landing Pages (HTML, CSS, and JavaScript)<br>- Cloning Websites</p>"
+    }
+  ]
+}

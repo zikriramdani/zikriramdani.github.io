@@ -3,13 +3,13 @@
   "name": "CV Zikri Ramdani",
   "icons": [
     {
-      "src": "/512x512.png",
-      "type": "image/png",
+      "src": "/512x512.webp",
+      "type": "image/webp",
       "sizes": "512x512"
     },
     {
-      "src": "/192x192.png",
-      "type": "image/png",
+      "src": "/192x192.webp",
+      "type": "image/webp",
       "sizes": "192x192"
     }
   ],
@@ -27,25 +27,11 @@
       "url": "/today?source=pwa",
       "icons": [
         {
-          "src": "/192x192.png",
+          "src": "/192x192.webp",
           "sizes": "192x192"
         }
       ]
     }
   ],
-  "description": "CV Zikri Ramdani",
-  "screenshots": [
-    {
-      "src": "/540.png",
-      "type": "image/png",
-      "sizes": "540x720",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "/720.png",
-      "type": "image/png",
-      "sizes": "720x540",
-      "form_factor": "wide"
-    }
-  ]
+  "description": "CV Zikri Ramdani"
 }
