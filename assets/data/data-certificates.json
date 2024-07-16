@@ -8,13 +8,13 @@
   {
     "id": 2,
     "name": "Javascript",
-    "image": "/assets/images/portfolio/babastudio.png",
-    "image_thumb": "/assets/images/portfolio/babastudio_thumb.png"
+    "image": "/assets/images/portfolio/babastudio.webp",
+    "image_thumb": "/assets/images/portfolio/babastudio_thumb.webp"
   },
   {
     "id": 3,
     "name": "Mobile Apps Android dan Kotlin",
-    "image": "/assets/images/portfolio/CERT-SKILLACADEMY.jpg",
-    "image_thumb": "/assets/images/portfolio/CERT-SKILLACADEMY_thumb.jpg"
+    "image": "/assets/images/portfolio/CERT-SKILLACADEMY.webp",
+    "image_thumb": "/assets/images/portfolio/CERT-SKILLACADEMY_thumb.webp"
   }
 ]

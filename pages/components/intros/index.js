@@ -21,10 +21,13 @@ const Intros = () => {
                 <div className="c-intro">
                   <div className="o-content__body a-content">
                     <p>
-                      I am a web developers who lives in Kunciran Indah, Tangerang City.
+                      👋 I am a Web developers who lives in Kunciran Indah, Tangerang City
                       <br />
-                      - Want to Continue Learning dan
-                      <br />- Not easily give up ( No bug No life).
+                      🌱 Want to Continue Learning <b>Web Development</b>
+                      <br />
+                      💞️ Not easily give up
+                      {/* <br/>
+                      - 📝 I sometimes write articles on [https://zikriramdani.blogspot.com) */}
                     </p>
                   </div>
                 </div>

@@ -14,7 +14,7 @@ const Heads = () => {
         <title>CV Zikri Ramdani</title>
 
         <meta content="CV Zikri Ramdani" property="og:title" />
-        <meta content="I am a web developers." property="og:description" />
+        <meta content="I am a Web developers who lives in Kunciran Indah, Tangerang City. Want to Continue Learning Web Development. Not easily give up" property="og:description" />
         <meta
           content="https://zikriramdani.github.io/assets/images/header/avatar-new.jpeg"
           property="og:image"
