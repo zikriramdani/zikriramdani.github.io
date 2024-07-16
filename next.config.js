@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'standalone', // "export",
   images: {
     loader: 'akamai',
-    path: ''
+    path: '/assets/images'
   }
 };
 
