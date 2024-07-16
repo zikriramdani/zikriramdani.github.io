@@ -36,18 +36,6 @@
           "sizes": "192x192"
         }
       ]
-    },
-    {
-      "name": "CV Zikri Ramdani",
-      "short_name": "CV Zikri Ramdani",
-      "description": "CV Zikri Ramdani",
-      "url": "/tomorrow?source=pwa",
-      "icons": [
-        {
-          "src": "https://zikriramdani.github.io/192x192.png",
-          "sizes": "192x192"
-        }
-      ]
     }
   ],
   "description": "CV Zikri Ramdani",
