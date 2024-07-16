@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zikriramdani.github.io
+
+# Sitemaps
+Sitemap: https://zikriramdani.github.io/sitemap.xml
