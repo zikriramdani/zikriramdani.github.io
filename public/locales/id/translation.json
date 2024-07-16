@@ -1,0 +1,82 @@
+{
+  "Top": "Atas",
+  "Headers": {
+    "Web Developer": "Pengembang Web",
+    "Location": "Lokasi",
+    "Phone": "Telepon",
+    "Web": "Web",
+    "Email": "Email"
+  },
+  "Copied Successfully!": "Berhasil Disalin!",
+  "Failed to copy!": "Gagal menyalin!",
+  "Copied!": "Disalin!",
+  "Kunciran Indah Tangerang City": "Kunciran Indah, Kota Tangerang",
+
+  "Intro": {
+    "Intro": "Perkenalan",
+    "What I am all about": "Tentang Saya",
+    "Zikri Ramdani": "<p>Halo! Nama saya Zikri Ramdani, dan saya adalah seorang Web Developer dengan lebih dari 5 tahun pengalaman di bidang pengembangan web. Saya memiliki passion untuk menciptakan solusi web yang inovatif dan user-friendly, serta keahlian dalam teknologi modern untuk membangun aplikasi yang efisien dan berkinerja tinggi.<br /><br /><b>Tujuan:</b><br />Saya berkomitmen untuk terus belajar dan berkembang dalam teknologi, berinovasi, serta memberikan solusi web kreatif dan efektif. Saya juga berusaha untuk selalu mengikuti tren terbaru di industri dan menerapkan praktik terbaik dalam setiap proyek.<br /><br />Saya sangat antusias untuk membawa keahlian dan pengalaman saya ke tim Anda, dan berharap dapat berkontribusi untuk kesuksesan proyek Anda. Terima kasih atas perhatian Anda!</p>"
+  },
+
+  "Skills": {
+    "Skills": "Keahlian",
+    "Progress bars anyone": "Bilah kemajuan, ada yang tertarik?"
+  },
+
+  "Experience": {
+    "Experience": "Pengalaman",
+    "Yes Ive been around": "Ya, saya sudah berpengalaman"
+  },
+
+  "Certificate": {
+    "Certificate": "Sertifikat"
+  },
+
+  "Education": {
+    "Education": "Pendidikan",
+    "Lazy isnt in my vocabulary": "Malas bukanlah kata dalam kosakata saya.",
+    "Sarjana Komputer": "Sarjana Komputer",
+    "STMIK PGRI TANGERANG": "<p>STMIK PGRI TANGERANG adalah lembaga pendidikan komputer di bawah naungan Yayasan Pendidikan Tinggi PGRI. Yayasan ini menjalankan amanat luhur yang terkandung dalam Pembukaan Undang-Undang Dasar 1945, yaitu misi mencerdaskan kehidupan bangsa Indonesia.<br/><br/><b>Indeks Prestasi Kumulatif (IPK): 3.31</b></p>"
+  },
+
+  "Profiles": {
+    "Profiles": "Profil",
+    "Busy as usual": "Sibuk seperti biasa",
+    "All my open source projects for you analyze": "Semua proyek open source saya untuk Anda analisis.",
+    "Yes Im also a blogger and here you find my writings": "Ya. Saya juga seorang blogger dan di sini Anda dapat menemukan tulisan saya."
+  },
+
+  "Portfolio": {
+    "Portfolio": "Portofolio",
+    "Here it gets interesting": "Di sini mulai menarik"
+  },
+
+  "Repositories": {
+    "Repositories": "Repositori",
+    "Example Source Code": "Contoh Kode Sumber",
+    "Demo": "Demo",
+    "CLICK HERE": "KLIK DISINI!",
+    "See All": "Lihat Semua"
+  },
+
+  "Footers": {
+    "Contact": "Kontak",
+    "Call me maybe": "Hubungi aku, mungkin."
+  },
+
+  "Download CV": "<b>Unduh CV</b>",
+  "Select Language": "Pilih Bahasa",
+  "Hello is there anything I can help with": "Halo, ada yang bisa dibantu?",
+  "Type a message": "Ketik pesan...",
+
+  "Error": {
+    "Brum": "Brum!!! Ada yang salah.",
+    "Try again": "Coba lagi"
+  },
+
+  "NotFound": {
+    "Page Not Found": "Halaman Tidak Ditemukan",
+    "Sorry the page you are looking for does not exist": "Maaf, halaman yang Anda cari tidak ada.",
+    "Go back to the homepage": "Kembali ke halaman utama"
+  }
+}

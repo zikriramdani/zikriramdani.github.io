@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Javascript",
+    "image": "/assets/images/certificate/babastudio.webp",
+    "image_thumb": "/assets/images/certificate/babastudio_thumb.webp"
+  },
+  {
+    "id": 2,
+    "name": "CSS (Basic)",
+    "image": "/assets/images/certificate/CSS-Basic.webp",
+    "image_thumb": "/assets/images/certificate/CSS-Basic_thumb.webp"
+  },
+  {
+    "id": 3,
+    "name": "Advanced React",
+    "image": "/assets/images/certificate/UC-ZikriRamdani.png",
+    "image_thumb": "/assets/images/certificate/UC-ZikriRamdani_thumb.png"
+  },
+  {
+    "id": 4,
+    "name": "Frontend Developer (React)",
+    "image": "/assets/images/certificate/HackerRank.png",
+    "image_thumb": "/assets/images/certificate/HackerRank_thumb.png"
+  },
+  {
+    "id": 5,
+    "name": "React (Basic)",
+    "image": "/assets/images/certificate/React-Basic.webp",
+    "image_thumb": "/assets/images/certificate/React-Basic_thumb.webp"
+  },
+  {
+    "id": 99,
+    "name": "Mobile Apps Android dan Kotlin",
+    "image": "/assets/images/certificate/CERT-SKILLACADEMY.webp",
+    "image_thumb": "/assets/images/certificate/CERT-SKILLACADEMY_thumb.webp"
+  }
+]

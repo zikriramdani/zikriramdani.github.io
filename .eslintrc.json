@@ -1,32 +1,17 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": [
-    "next/core-web-vitals",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 12,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "plugins": ["react", "react-hooks"],
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
-  },
+  "extends": ["next", "eslint:recommended", "plugin:react/recommended", "next/core-web-vitals"],
   "rules": {
-    //add customize rules here as per your project's needs
-    "react-hooks/exhaustive-deps": "off",
-    "no-unused-vars": "off",
+    // Add specific rules here if needed
     "@next/next/no-img-element": "off",
-    "react/react-in-jsx-scope": "off"
+    "@next/next/no-sync-scripts": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks": "off",
+
+    "no-unused-vars": "off",
+    "no-useless-escape": "off",
+    "no-undef": "off",
+    "no-inner-declarations": "off",
+    "no-html-link-for-pages": "off",
+    "react/no-unescaped-entities": "off"
   }
 }
