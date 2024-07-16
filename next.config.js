@@ -1,17 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", //'standalone'
+  output: 'standalone', // "export",
   images: {
-    path: '/_next/image' // ''
+    loader: 'akamai',
+    path: ''
   }
-
-  // reactStrictMode: true,
-  // swcMinify: true,
-  // images: {
-  //   loader: 'akamai',
-  //   path: ''
-  // },
-  // assetPrefix: './'
 };
 
 module.exports = nextConfig;
