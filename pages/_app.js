@@ -9,11 +9,10 @@ import PropTypes from 'prop-types';
 import '../styles/css/main.css';
 import '../styles/css/style.css';
 import '../styles/fonts/Lato/fonts.css';
-
 import '../styles/whatsapp/floating-wpp.css';
 
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -21,11 +20,9 @@ function MyApp({ Component, pageProps }) {
   });
 
   return (
-    <>
-      <Provider store={store}>
-        <Component {...pageProps} />
-      </Provider>
-    </>
+    <Provider store={store}>
+      <Component {...pageProps} />
+    </Provider>
   );
 }
 
