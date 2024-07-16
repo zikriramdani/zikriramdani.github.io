@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import Heads from '../components/Heads';
 import Preloaders from '../components/Preloaders';
 import Headers from '../components/Headers';
@@ -23,7 +23,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <Fragment>
       <Heads />
       <Preloaders />
       <div
@@ -43,7 +43,7 @@ const Home = () => {
         <Clients />
         <Footers />
 
-        <div id="Games" style={{ display: 'block' }}>
+        {/* <div id="Games" style={{ display: 'block' }}>
           {showItems && (
             <div className="Games--box" onMouseLeave={handleClick}>
               <div>
@@ -69,7 +69,7 @@ const Home = () => {
           <div className="Games--btn" onClick={handleClick}>
             Ayo <b>bermain!</b>
           </div>
-        </div>
+        </div> */}
 
         <div id="DownloadPDF" style={{ display: 'block' }}>
           <a
@@ -90,7 +90,7 @@ const Home = () => {
         </div>
       </div>
       <FloatingWhatsApp
-        avatar="/assets/images/header/avatar-new.jpeg"
+        avatar="/assets/images/header/avatar.webp"
         phoneNumber="6281228883616"
         accountName="Zikri Ramdani"
         chatMessage="Halo, ada yang bisa dibantu?"
@@ -103,7 +103,7 @@ const Home = () => {
         // notificationSound
         styles={{ position: 'fixed', bottom: '15px' }}
       />
-    </>
+    </Fragment>
   );
 };
 

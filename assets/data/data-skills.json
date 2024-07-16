@@ -5,8 +5,8 @@
     "percents": 80
   },
   {
-    "id": 9,
-    "name": "NEXT JS",
+    "id": 13,
+    "name": "Docker",
     "percents": 80
   },
   {
@@ -20,34 +20,25 @@
     "percents": 80
   },
   {
-    "id": 13,
-    "name": "Docker",
-    "percents": 70
+    "id": 9,
+    "name": "NEXT JS",
+    "percents": 80
   },
+
   {
     "id": 13,
     "name": "Ubuntu",
     "percents": 70
   },
   {
-    "id": 2,
-    "name": "GOLANG",
-    "percents": 50
-  },
-  {
-    "id": 3,
-    "name": "Node Js",
-    "percents": 80
-  },
-  {
-    "id": 4,
-    "name": "EXPRESS JS",
+    "id": 8,
+    "name": "ANGULAR",
     "percents": 80
   },
 
   {
-    "id": 6,
-    "name": "LUMEN",
+    "id": 2,
+    "name": "GOLANG",
     "percents": 50
   },
   {
@@ -56,9 +47,49 @@
     "percents": 80
   },
   {
-    "id": 8,
-    "name": "ANGULAR",
+    "id": 19,
+    "name": "MYSQL / MYSQL SEQUELIZE",
     "percents": 80
+  },
+  {
+    "id": 15,
+    "name": "SCSS / CSS / SASS",
+    "percents": 80
+  },
+  {
+    "id": 4,
+    "name": "EXPRESS JS",
+    "percents": 80
+  },
+  {
+    "id": 17,
+    "name": "TYPESCRIPT",
+    "percents": 60
+  },
+  {
+    "id": 14,
+    "name": "CODEIGNITER",
+    "percents": 80
+  },
+  {
+    "id": 16,
+    "name": "JAVACRIPT",
+    "percents": 80
+  },
+  {
+    "id": 3,
+    "name": "Node Js",
+    "percents": 80
+  },
+  {
+    "id": 18,
+    "name": "JQUERY",
+    "percents": 80
+  },
+  {
+    "id": 6,
+    "name": "LUMEN",
+    "percents": 50
   },
 
   {
@@ -70,36 +101,6 @@
     "id": 12,
     "name": "SOCKET.IO",
     "percents": 80
-  },
-  {
-    "id": 14,
-    "name": "CODEIGNITER",
-    "percents": 80
-  },
-  {
-    "id": 15,
-    "name": "SCSS / CSS / SASS",
-    "percents": 80
-  },
-  {
-    "id": 16,
-    "name": "JAVACRIPT",
-    "percents": 80
-  },
-  {
-    "id": 17,
-    "name": "TYPESCRIPT",
-    "percents": 60
-  },
-  {
-    "id": 18,
-    "name": "JQUERY",
-    "percents": 80
-  },
-  {
-    "id": 19,
-    "name": "MYSQL / MYSQL SEQUELIZE",
-    "percents": 70
   },
   {
     "id": 20,

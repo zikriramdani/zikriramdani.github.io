@@ -2602,3 +2602,9 @@ img[height] {
   text-align: center;
   margin-bottom: 5px;
 }
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
