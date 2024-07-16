@@ -96,11 +96,11 @@ const Home = () => {
         chatMessage="Halo, ada yang bisa dibantu?"
         statusMessage=""
         darkMode={true}
-        allowEsc={true}
-        allowClickAway
-        notification
+        // allowEsc={true}
+        // allowClickAway
+        // notification
         // notificationDelay={60000} // 1 minute
-        notificationSound
+        // notificationSound
         styles={{ position: 'fixed', bottom: '15px' }}
       />
     </>
