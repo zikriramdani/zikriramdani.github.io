@@ -17,7 +17,6 @@ const Header = () => {
   };
 
   return (
-    <>
       <section className="o-section o-section--header t-section t-section--header">
         <div className="c-header">
           <div className="o-section__header-bg t-section__header"></div>
@@ -192,7 +191,6 @@ const Header = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 

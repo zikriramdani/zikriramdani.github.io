@@ -18,7 +18,6 @@ const Footers = () => {
   };
 
   return (
-    <>
       <section className="o-section  t-section  o-section--footer">
         <div className="o-section__header-bg  t-section__header"></div>
         <div className="o-section__content-bg  t-section__content"></div>
@@ -182,7 +181,6 @@ const Footers = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 
