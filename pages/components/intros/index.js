@@ -21,14 +21,34 @@ const Intros = () => {
                 <div className="c-intro">
                   <div className="o-content__body a-content">
                     <p>
+                      Halo! Nama saya Zikri Ramdani, dan saya adalah seorang Web Developer dengan
+                      lebih dari 5 tahun pengalaman di bidang pengembangan web. Saya memiliki
+                      passion untuk menciptakan solusi web yang inovatif dan user-friendly, serta
+                      keahlian dalam teknologi modern untuk membangun aplikasi yang efisien dan
+                      berkinerja tinggi.
+                      <br />
+                      <br />
+                      <b>Tujuan:</b>
+                      <br />
+                      Saya berkomitmen untuk terus belajar dan berkembang dalam teknologi,
+                      berinovasi, serta memberikan solusi web kreatif dan efektif. Saya juga
+                      berusaha untuk selalu mengikuti tren terbaru di industri dan menerapkan
+                      praktik terbaik dalam setiap proyek.
+                      <br />
+                      <br />
+                      Saya sangat antusias untuk membawa keahlian dan pengalaman saya ke tim Anda,
+                      dan berharap dapat berkontribusi untuk kesuksesan proyek Anda. Terima kasih
+                      atas perhatian Anda!
+                    </p>
+                    {/* <p>
                       👋 I am a Web developers who lives in Kunciran Indah, Tangerang City
                       <br />
                       🌱 Want to Continue Learning <b>Web Development</b>
                       <br />
                       💞️ Not easily give up
-                      {/* <br/>
-                      - 📝 I sometimes write articles on [https://zikriramdani.blogspot.com) */}
-                    </p>
+                      <br/>
+                      - 📝 I sometimes write articles on [https://zikriramdani.blogspot.com)
+                    </p> */}
                   </div>
                 </div>
               </div>
