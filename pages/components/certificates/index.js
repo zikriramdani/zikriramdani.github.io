@@ -66,6 +66,7 @@ const Certificates = () => {
                       data-lightbox-gallery="portfolio"
                       title={item.name}
                       onClick={() => setIndex(i)}
+                      rel="nofollow"
                     >
                       <img alt={item.name} src={item.image_thumb} />
                       <div className="c-image-overlay__content">

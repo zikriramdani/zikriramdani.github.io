@@ -68,6 +68,7 @@ const Portfolios = () => {
                       data-lightbox-hidpi=""
                       title={item.name}
                       onClick={() => setIndex(i)}
+                      rel="nofollow"
                     >
                       <img alt="" src={item.image_thumb} />
                       <div className="c-image-overlay__content">
