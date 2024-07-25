@@ -29,12 +29,11 @@ const Certificates = () => {
 
   useEffect(() => {
     fetchCertificatesList();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <>
-      <section className="o-section t-section">
+      <section className="o-section t-section" id="Certificate">
         <div className="o-section__header-bg t-section__header"></div>
         <div className="o-section__content-bg t-section__content"></div>
 
@@ -67,6 +66,7 @@ const Certificates = () => {
                       title={item.name}
                       onClick={() => setIndex(i)}
                       rel="nofollow"
+                      href="#Certificate"
                     >
                       <img alt={item.name} src={item.image_thumb} />
                       <div className="c-image-overlay__content">
