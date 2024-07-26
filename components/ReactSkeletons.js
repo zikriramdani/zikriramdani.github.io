@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import Skeleton from 'react-loading-skeleton';
@@ -11,13 +11,13 @@ const ReactSkeletons = ({ loop, count, height }) => {
   const heights = height || '25';
 
   return (
-    <>
+    <Fragment>
       {reactSkeleton?.map((item, i) => (
         <div key={i}>
           <Skeleton count={counts} height={heights + 'px'} />
         </div>
       ))}
-    </>
+    </Fragment>
   );
 };
 

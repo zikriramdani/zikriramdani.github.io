@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import Heads from '../components/Heads';
 import Preloaders from '../components/Preloaders';
 import Headers from '../components/Headers';
@@ -23,7 +23,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <Fragment>
       <Heads />
       <Preloaders />
       <div
@@ -103,7 +103,7 @@ const Home = () => {
         // notificationSound
         styles={{ position: 'fixed', bottom: '15px' }}
       />
-    </>
+    </Fragment>
   );
 };
 
