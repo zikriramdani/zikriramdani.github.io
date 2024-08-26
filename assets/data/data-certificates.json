@@ -1,11 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Advanced React",
-    "image": "/assets/images/portfolio/UC-ZikriRamdani.png",
-    "image_thumb": "/assets/images/portfolio/UC-ZikriRamdani_thumb.png"
-  },
-  {
     "id": 2,
     "name": "Javascript",
     "image": "/assets/images/portfolio/babastudio.webp",
@@ -16,5 +10,11 @@
     "name": "Mobile Apps Android dan Kotlin",
     "image": "/assets/images/portfolio/CERT-SKILLACADEMY.webp",
     "image_thumb": "/assets/images/portfolio/CERT-SKILLACADEMY_thumb.webp"
+  },
+  {
+    "id": 1,
+    "name": "Advanced React",
+    "image": "/assets/images/portfolio/UC-ZikriRamdani.png",
+    "image_thumb": "/assets/images/portfolio/UC-ZikriRamdani_thumb.png"
   }
 ]

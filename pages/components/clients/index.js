@@ -27,7 +27,7 @@ const Clients = () => {
           <div className="o-section__content t-section__content">
             <div className="o-grid">
               <div
-                className="o-grid__col-xl-4 o-grid__col-sm-6"
+                className="o-grid__col-xl-4 o-grid__col-xs-6"
                 data-aos="fade-down"
                 data-aos-delay="200"
               >
@@ -63,7 +63,7 @@ const Clients = () => {
               </div>
 
               <div
-                className="o-grid__col-xl-4 o-grid__col-sm-6"
+                className="o-grid__col-xl-4 o-grid__col-xs-6"
                 data-aos="fade-down"
                 data-aos-delay="200"
               >
@@ -99,7 +99,7 @@ const Clients = () => {
               </div>
 
               <div
-                className="o-grid__col-xl-4 o-grid__col-sm-6"
+                className="o-grid__col-xl-4 o-grid__col-xs-6"
                 data-aos="fade-down"
                 data-aos-delay="200"
               >
@@ -135,7 +135,7 @@ const Clients = () => {
               </div>
 
               <div
-                className="o-grid__col-xl-4 o-grid__col-sm-6"
+                className="o-grid__col-xl-4 o-grid__col-xs-6"
                 data-aos="fade-down"
                 data-aos-delay="200"
               >
@@ -167,7 +167,7 @@ const Clients = () => {
               </div>
 
               <div
-                className="o-grid__col-xl-4 o-grid__col-sm-6"
+                className="o-grid__col-xl-4 o-grid__col-xs-6"
                 data-aos="fade-down"
                 data-aos-delay="200"
               >
@@ -193,7 +193,7 @@ const Clients = () => {
               </div>
 
               <div
-                className="o-grid__col-xl-4 o-grid__col-sm-6"
+                className="o-grid__col-xl-4 o-grid__col-xs-6"
                 data-aos="fade-down"
                 data-aos-delay="200"
               >

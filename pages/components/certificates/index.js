@@ -53,7 +53,11 @@ const Certificates = () => {
             <div className="o-grid o-grid--gallery">
               {certificatesList.map((item, i) => (
                 <div
-                  className="o-grid__col-sm-6 o-grid__col-xs-6 a-content"
+                  className={`a-content ${
+                    (i + 1) % 3 === 0
+                      ? 'o-grid__col-sm-6 o-grid__col-xs-12'
+                      : 'o-grid__col-sm-6 o-grid__col-xs-6'
+                  }`}
                   key={i}
                   data-aos="flip-right"
                   data-aos-delay={i + 1 + '00'}
