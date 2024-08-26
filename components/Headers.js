@@ -31,7 +31,7 @@ const Header = () => {
                     <img
                       alt="zikriramdani"
                       className="c-avatar__img"
-                      src="/assets/images/header/avatar-new.jpeg"
+                      src="/assets/images/header/avatar.webp"
                     />
                   </div>
                 </div>

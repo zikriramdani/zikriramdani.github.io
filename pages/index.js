@@ -90,7 +90,7 @@ const Home = () => {
         </div>
       </div>
       <FloatingWhatsApp
-        avatar="/assets/images/header/avatar-new.jpeg"
+        avatar="/assets/images/header/avatar.webp"
         phoneNumber="6281228883616"
         accountName="Zikri Ramdani"
         chatMessage="Halo, ada yang bisa dibantu?"

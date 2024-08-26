@@ -20,7 +20,7 @@ const Heads = () => {
           property="og:description"
         />
         <meta
-          content="https://zikriramdani.github.io/assets/images/header/avatar-new.jpeg"
+          content="https://zikriramdani.github.io/assets/images/header/avatar.webp"
           property="og:image"
         />
         <meta content="https://zikriramdani.github.io/" property="og:url" />

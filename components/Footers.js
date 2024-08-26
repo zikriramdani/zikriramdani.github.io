@@ -128,6 +128,18 @@ const Footers = () => {
                           </span>
                         </p>
                       </a>
+                      <a
+                        href="mailto:zikriramdani.developer@gmail.com"
+                        target="_blank"
+                        className="t-link-container"
+                        rel="noreferrer"
+                      >
+                        <p>
+                          <span className="t-link-container__item--blended">
+                            zikriramdani.developer@gmail.com
+                          </span>
+                        </p>
+                      </a>
                     </div>
                   </div>
                 </div>
