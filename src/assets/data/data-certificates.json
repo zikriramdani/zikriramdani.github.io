@@ -2,19 +2,25 @@
   {
     "id": 2,
     "name": "Javascript",
-    "image": "/assets/images/portfolio/babastudio.webp",
-    "image_thumb": "/assets/images/portfolio/babastudio_thumb.webp"
+    "image": "/assets/images/certificate/babastudio.webp",
+    "image_thumb": "/assets/images/certificate/babastudio_thumb.webp"
   },
   {
     "id": 3,
     "name": "Mobile Apps Android dan Kotlin",
-    "image": "/assets/images/portfolio/CERT-SKILLACADEMY.webp",
-    "image_thumb": "/assets/images/portfolio/CERT-SKILLACADEMY_thumb.webp"
+    "image": "/assets/images/certificate/CERT-SKILLACADEMY.webp",
+    "image_thumb": "/assets/images/certificate/CERT-SKILLACADEMY_thumb.webp"
   },
   {
     "id": 1,
     "name": "Advanced React",
-    "image": "/assets/images/portfolio/UC-ZikriRamdani.png",
-    "image_thumb": "/assets/images/portfolio/UC-ZikriRamdani_thumb.png"
+    "image": "/assets/images/certificate/UC-ZikriRamdani.png",
+    "image_thumb": "/assets/images/certificate/UC-ZikriRamdani_thumb.png"
+  },
+  {
+    "id": 4,
+    "name": "Frontend Developer (React)",
+    "image": "/assets/images/certificate/HackerRank.png",
+    "image_thumb": "/assets/images/certificate/HackerRank_thumb.png"
   }
 ]

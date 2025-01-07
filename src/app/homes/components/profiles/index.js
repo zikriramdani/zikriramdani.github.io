@@ -85,7 +85,7 @@ const Profiles = (props) => {
                 <div className="o-content a-content">
                   <a
                     className="t-link-container"
-                    href="https://zikriramdani.blogspot.com"
+                    href="https://www.hackerrank.com/profile/zikriramdani_de1"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -96,12 +96,12 @@ const Profiles = (props) => {
                         </div>
                       </div>
                       <div className="o-media__body o-content__body">
-                        <h3 className="t-link-container__item">Blogspot</h3>
-                        <p>
+                        <h3 className="t-link-container__item">HackerRank</h3>
+                        {/* <p>
                           {translation(
                             'Profiles.Yes Im also a blogger and here you find my writings'
                           )}
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </a>
