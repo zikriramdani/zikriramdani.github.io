@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import LanguageSwitcher from './LanguageSwitcher';
-import MobileBottomNavigation from './MobileBottomNavigation';
-import Navigation from './Navigation';
+import LanguageSwitcher from '@/layouts/LanguageSwitcher';
+import MobileBottomNavigation from '@/layouts/MobileBottomNavigation';
+import Navigation from '@/layouts/Navigation';
 
-const Header = (props) => {
+const Index = (props) => {
   const { translation } = props;
 
   const [copySuccess, setCopySuccess] = useState(translation('Copied!'));
@@ -247,4 +247,4 @@ const Header = (props) => {
   );
 };
 
-export default Header;
+export default Index;

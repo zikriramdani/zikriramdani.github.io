@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const NotFound = (props) => {
+const Index = (props) => {
   const { translation } = props;
 
   return (
@@ -15,4 +15,4 @@ const NotFound = (props) => {
   );
 };
 
-export default NotFound;
+export default Index;

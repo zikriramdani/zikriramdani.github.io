@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Preloaders = () => {
+const Index = () => {
   return (
     <div className="c-preloader  js-preloader">
       <div className="c-preloader__spinner  t-preloader__spinner"></div>
@@ -8,4 +8,4 @@ const Preloaders = () => {
   );
 };
 
-export default Preloaders;
+export default Index;
