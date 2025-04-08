@@ -1,3 +1,4 @@
+'use client';
 import React, { useState, useEffect } from 'react';
 
 import Lightbox from 'yet-another-react-lightbox';
@@ -9,7 +10,7 @@ import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { getListCertificates } from '../../../../redux/action/certificates/creator';
+import { getListCertificates } from '@/redux/action/certificates/creator';
 
 const Certificates = (props) => {
   const { translation } = props;

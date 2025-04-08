@@ -1,7 +1,8 @@
+'use client';
 import React, { useEffect } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
-import { getListSkills } from '../../../../redux/action/skills/creator';
+import { getListSkills } from '@/redux/action/skills/creator';
 
 const Skills = (props) => {
   const { translation } = props;

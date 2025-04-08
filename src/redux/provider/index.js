@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useRef, useEffect } from 'react';
 import { Provider } from 'react-redux';
 import { makeStore } from '@/redux/store';
