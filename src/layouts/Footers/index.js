@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Footers = (props) => {
+const Index = (props) => {
   const { translation } = props;
   const [copySuccess, setCopySuccess] = useState(translation('Copied!'));
 
@@ -202,4 +202,4 @@ const Footers = (props) => {
   );
 };
 
-export default Footers;
+export default Index;

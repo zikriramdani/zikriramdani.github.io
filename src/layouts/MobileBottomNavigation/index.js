@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const MobileBottomNavigation = (props) => {
+const Index = (props) => {
   const { translation } = props;
   const [activeButton, setActiveButton] = useState('top');
   const mobileNavRef = useRef(null); // Reference to the mobile navigation container
@@ -133,4 +133,4 @@ const MobileBottomNavigation = (props) => {
   );
 };
 
-export default MobileBottomNavigation;
+export default Index;

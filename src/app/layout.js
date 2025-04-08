@@ -16,7 +16,7 @@ export const metadata = {
   manifest: '/manifest.json',
   title: 'CV Zikri Ramdani',
   description:
-    'I am a Web developer who lives in Kunciran Indah, Tangerang City. Want to continue learning web development. Not easily give up.',
+    'Saya seorang Web Developer yang tinggal di Kunciran Indah, Kota Tangerang. Saya memiliki semangat untuk terus belajar pengembangan web dan tidak mudah menyerah.',
   openGraph: {
     url: '/',
     images: [
