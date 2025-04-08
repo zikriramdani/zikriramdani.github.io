@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { useTranslation } from 'next-i18next';
 
-const LanguageSwitcher = (props) => {
+const Index = (props) => {
   const { translation } = props;
   const { i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
@@ -75,4 +75,4 @@ const LanguageSwitcher = (props) => {
   );
 };
 
-export default LanguageSwitcher;
+export default Index;

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import Link from 'next/link';
 
-export default function Error({ error, reset, translation }) {
+export default function Index({ error, reset, translation }) {
   useEffect(() => {
     // Log the error to an error reporting service
     console.error(error);

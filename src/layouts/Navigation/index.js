@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const Navigation = (props) => {
+const Index = (props) => {
   const { translation } = props;
   const [activeButton, setActiveButton] = useState('top');
   const desktopNavRef = useRef(null); // Reference to the desktop navigation container
@@ -137,4 +137,4 @@ const Navigation = (props) => {
   );
 };
 
-export default Navigation;
+export default Index;
