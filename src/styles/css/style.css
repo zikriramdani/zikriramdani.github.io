@@ -215,3 +215,12 @@ a .fa,
 }
 
 /*# sourceMappingURL=themes.dark.css.map */
+
+/* NProgress custom color: red */
+#nprogress .bar {
+  background: #e0a80d !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #e0a80d, 0 0 5px #e0a80d !important;
+}
