@@ -72,7 +72,7 @@ const Home = () => {
   return (
     <Fragment>
       <div
-        className="c-main-container  js-main-container"
+        className="c-main-container js-main-container"
         data-aos-easing="ease-out-back"
         data-aos-duration="1000"
         data-aos-delay="0"
