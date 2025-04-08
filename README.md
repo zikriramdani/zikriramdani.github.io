@@ -1,3 +1,5 @@
+⚠️ Repo ini hanya untuk keperluan pribadi. Mohon tidak digunakan ulang tanpa izin.
+
 # 👨‍💻 zikriramdani.github.io
 ![Deploy](https://github.com/zikriramdani/zikriramdani.github.io/actions/workflows/nextjs.yml/badge.svg)
 
