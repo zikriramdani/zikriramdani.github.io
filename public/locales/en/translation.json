@@ -78,5 +78,12 @@
     "Page Not Found": "Page Not Found",
     "Sorry the page you are looking for does not exist": "Sorry, the page you are looking for does not exist.",
     "Go back to the homepage": "Go back to the homepage"
-  }
+  },
+
+  "assistant": "🤖 AI Assistant",
+  "type_message": "Ask anything",
+  "send": "Send",
+  "typing": "Typing...",
+  "ai_error": "Sorry, I couldn't respond.",
+  "ai_fetch_error": "Error fetching AI response."
 }

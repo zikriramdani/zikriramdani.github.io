@@ -17,6 +17,8 @@ import FloatingWhatsApp from 'react-floating-whatsapp';
 
 import { useTranslation } from 'react-i18next';
 
+import FloatingChatBot from '@/components/FloatingChatBot';
+
 const Home = () => {
   const { t } = useTranslation('translation');
 
@@ -130,7 +132,7 @@ const Home = () => {
           </a>
         </div> */}
       </div>
-      <FloatingWhatsApp
+      {/* <FloatingWhatsApp
         avatar="/assets/images/header/avatar.webp"
         phoneNumber="6281228883616"
         accountName="Zikri Ramdani"
@@ -144,6 +146,11 @@ const Home = () => {
         // notificationSound
         styles={{ position: 'fixed', bottom: isMobile ? '64px' : '15px', right: '0.9rem' }}
         placeholder={t('Type a message')}
+      /> */}
+      <FloatingChatBot
+        translation={t}
+        bottom={isMobile ? '64px' : '15px'}
+        bottomBox={isMobile ? '132px' : '84px'}
       />
 
       {showButton && (
