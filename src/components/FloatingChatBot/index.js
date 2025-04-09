@@ -7,6 +7,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
   const [chat, setChat] = useState([]);
   const [input, setInput] = useState('');
   const chatBodyRef = useRef();
+  const [isLoading, setIsLoading] = useState(false);
 
   const toggleChat = () => setIsOpen((prev) => !prev);
 
@@ -24,6 +25,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
 
     setChat((prev) => [...prev, userMsg, loadingMsg]);
     setInput('');
+    setIsLoading(true); // Start loading
 
     try {
       const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
@@ -33,7 +35,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          model: 'gpt-3.5-turbo',
+          model: 'openchat/openchat-3.5-1210',
           messages: [
             { role: 'system', content: 'You are a helpful assistant.' },
             { role: 'user', content: input }
@@ -62,8 +64,14 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
         updated.pop(); // remove "Typing..."
         return [...updated, { sender: 'ai', text: translation('ai_fetch_error') }];
       });
+    } finally {
+      setIsLoading(false); // Done loading
     }
-  }, [input, translation]);
+  }, [input, translation, isLoading]);
+
+  const clearChat = () => {
+    setChat([]);
+  };
 
   useEffect(() => {
     scrollToBottom();
@@ -86,9 +94,14 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
       >
         <div className="chat-header">
           <span>{translation('assistant')}</span>
-          <span onClick={toggleChat} style={{ cursor: 'pointer' }}>
-            <i className="fa fa-2x fa-close" style={{ color: '#000' }} />
-          </span>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <button onClick={clearChat} className="clear-chat-btn">
+              {translation('clear_chat')}
+            </button>
+            <span onClick={toggleChat} style={{ cursor: 'pointer' }}>
+              <i className="fa fa-2x fa-close" style={{ color: '#000' }} />
+            </span>
+          </div>
         </div>
 
         <div className="chat-body" ref={chatBodyRef}>
@@ -104,7 +117,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
             onKeyDown={(e) => e.key === 'Enter' && handleSend()}
             className="text-truncate"
           />
-          <button onClick={handleSend}>{translation('send')}</button>
+          <button onClick={handleSend} disabled={isLoading}>{translation('send')}</button>
         </div>
       </div>
 
