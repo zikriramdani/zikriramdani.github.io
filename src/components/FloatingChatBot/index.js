@@ -73,12 +73,26 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
 
   const clearChat = () => {
     setChat([]);
+    localStorage.removeItem('chatMessages');
   };
 
   useEffect(() => {
     scrollToBottom();
   }, [chat]);
 
+  useEffect(() => {
+    const savedChat = localStorage.getItem('chatMessages');
+    if (savedChat) {
+      setChat(JSON.parse(savedChat));
+    }
+  }, []);
+  
+  useEffect(() => {
+    if (chat.length > 0) {
+      localStorage.setItem('chatMessages', JSON.stringify(chat));
+    }
+  }, [chat]);
+  
   const renderMessages = () =>
     chat.map((msg, i) => (
       <div key={i} className={`chat-msg ${msg.sender}`}>
