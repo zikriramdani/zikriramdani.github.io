@@ -117,7 +117,9 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
             onKeyDown={(e) => e.key === 'Enter' && handleSend()}
             className="text-truncate"
           />
-          <button onClick={handleSend} disabled={isLoading}>{translation('send')}</button>
+          <button onClick={handleSend} disabled={isLoading}>
+            {translation('send')}
+          </button>
         </div>
       </div>
 
