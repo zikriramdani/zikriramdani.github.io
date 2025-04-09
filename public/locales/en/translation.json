@@ -85,5 +85,6 @@
   "send": "Send",
   "typing": "Typing...",
   "ai_error": "Sorry, I couldn't respond.",
-  "ai_fetch_error": "Error fetching AI response."
+  "ai_fetch_error": "Error fetching AI response.",
+  "clear_chat": "Clear Chat"
 }
