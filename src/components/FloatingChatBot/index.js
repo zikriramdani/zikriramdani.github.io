@@ -1,4 +1,5 @@
 'use client';
+
 import { useState, useRef, useEffect, useCallback } from 'react';
 import './FloatingChatBot.scss';
 
@@ -6,122 +7,108 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
   const [isOpen, setIsOpen] = useState(false);
   const [chat, setChat] = useState([]);
   const [input, setInput] = useState('');
-  const chatBodyRef = useRef();
   const [isLoading, setIsLoading] = useState(false);
+
+  const chatBodyRef = useRef(null);
+  const LOCAL_STORAGE_KEY = 'chatMessages';
 
   const toggleChat = () => setIsOpen((prev) => !prev);
 
-  const scrollToBottom = () => {
+  const scrollToBottom = useCallback(() => {
     if (chatBodyRef.current) {
       chatBodyRef.current.scrollTop = chatBodyRef.current.scrollHeight;
     }
+  }, []);
+
+  const clearChat = () => {
+    setChat([]);
+    localStorage.removeItem(LOCAL_STORAGE_KEY);
+  };
+
+  const appendMessage = (newMsg) => {
+    setChat((prev) => [...prev, newMsg]);
+  };
+
+  const replaceLastMessage = (newMsg) => {
+    setChat((prev) => [...prev.slice(0, -1), newMsg]);
   };
 
   const handleSend = useCallback(async () => {
-    if (!input.trim()) return;
-  
-    const userMsg = { sender: 'user', text: input };
-    const loadingMsg = { sender: 'ai', text: translation('typing') };
-  
-    setChat((prev) => [...prev, userMsg, loadingMsg]);
+    const trimmedInput = input.trim();
+    if (!trimmedInput) return;
+
+    appendMessage({ sender: 'user', text: trimmedInput });
+    appendMessage({ sender: 'ai', text: translation('typing') });
     setInput('');
-    setIsLoading(true); // Start loading
-  
+    setIsLoading(true);
+
     try {
       const response = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`,
         {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            contents: [
-              {
-                parts: [{ text: input }]
-              }
-            ]
+            contents: [{ parts: [{ text: trimmedInput }] }],
           }),
         }
       );
-  
-      if (!response.ok) {
-        throw new Error(`API Error: ${response.status}`);
-      }
-  
+
+      if (!response.ok) throw new Error(`API Error: ${response.status}`);
+
       const data = await response.json();
       const aiText =
-        data.candidates?.[0]?.content?.parts?.[0]?.text || translation('ai_error');
-  
-      setChat((prev) => {
-        const updated = [...prev];
-        updated.pop(); // remove "Typing..."
-        return [...updated, { sender: 'ai', text: aiText }];
-      });
+        data?.candidates?.[0]?.content?.parts?.[0]?.text || translation('ai_error');
+
+      replaceLastMessage({ sender: 'ai', text: aiText });
     } catch (error) {
       console.error('Fetch error:', error);
-  
-      setChat((prev) => {
-        const updated = [...prev];
-        updated.pop(); // remove "Typing..."
-        return [...updated, { sender: 'ai', text: translation('ai_fetch_error') }];
-      });
+      replaceLastMessage({ sender: 'ai', text: translation('ai_fetch_error') });
     } finally {
-      setIsLoading(false); // Done loading
+      setIsLoading(false);
     }
-  }, [input, translation]);  
-
-  const clearChat = () => {
-    setChat([]);
-    localStorage.removeItem('chatMessages');
-  };
+  }, [input, translation]);
 
   useEffect(() => {
     scrollToBottom();
-  }, [chat]);
+  }, [chat, scrollToBottom]);
 
   useEffect(() => {
-    const savedChat = localStorage.getItem('chatMessages');
-    if (savedChat) {
-      setChat(JSON.parse(savedChat));
-    }
+    const savedChat = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (savedChat) setChat(JSON.parse(savedChat));
   }, []);
-  
+
   useEffect(() => {
     if (chat.length > 0) {
-      localStorage.setItem('chatMessages', JSON.stringify(chat));
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(chat));
     }
   }, [chat]);
-  
-  const renderMessages = () =>
-    chat.map((msg, i) => (
-      <div key={i} className={`chat-msg ${msg.sender}`}>
-        {msg.text}
-      </div>
-    ));
 
   return (
     <>
+      {/* Chat box */}
       <div
         className={`chatbot-box ${isOpen ? 'open' : ''}`}
-        style={{
-          bottom: bottomBox
-        }}
+        style={{ bottom: bottomBox }}
       >
         <div className="chat-header">
           <span>{translation('assistant')}</span>
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <div className="chat-header-actions">
             <button onClick={clearChat} className="clear-chat-btn">
               {translation('clear_chat')}
             </button>
-            <span onClick={toggleChat} style={{ cursor: 'pointer' }}>
+            <button onClick={toggleChat} className="close-chat-btn">
               <i className="fa fa-2x fa-close" style={{ color: '#000' }} />
-            </span>
+            </button>
           </div>
         </div>
 
         <div className="chat-body" ref={chatBodyRef}>
-          {renderMessages()}
+          {chat.map((msg, i) => (
+            <div key={i} className={`chat-msg ${msg.sender}`}>
+              {msg.text}
+            </div>
+          ))}
         </div>
 
         <div className="chat-input">
@@ -139,12 +126,11 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
         </div>
       </div>
 
+      {/* Toggle button */}
       <button
         className="chatbot-toggle"
         onClick={toggleChat}
-        style={{
-          bottom: bottom
-        }}
+        style={{ bottom }}
       >
         <i className="fa fa-2x fa-comments" style={{ color: '#000' }} />
       </button>
