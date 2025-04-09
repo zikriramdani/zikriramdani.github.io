@@ -19,38 +19,40 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
 
   const handleSend = useCallback(async () => {
     if (!input.trim()) return;
-
+  
     const userMsg = { sender: 'user', text: input };
     const loadingMsg = { sender: 'ai', text: translation('typing') };
-
+  
     setChat((prev) => [...prev, userMsg, loadingMsg]);
     setInput('');
     setIsLoading(true); // Start loading
-
+  
     try {
-      const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          model: 'openchat/openchat-3.5-1210',
-          messages: [
-            { role: 'system', content: 'You are a helpful assistant.' },
-            { role: 'user', content: input }
-          ],
-          temperature: 0.7
-        })
-      });
-
+      const response = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            contents: [
+              {
+                parts: [{ text: input }]
+              }
+            ]
+          }),
+        }
+      );
+  
       if (!response.ok) {
         throw new Error(`API Error: ${response.status}`);
       }
-
+  
       const data = await response.json();
-      const aiText = data.choices?.[0]?.message?.content || translation('ai_error');
-
+      const aiText =
+        data.candidates?.[0]?.content?.parts?.[0]?.text || translation('ai_error');
+  
       setChat((prev) => {
         const updated = [...prev];
         updated.pop(); // remove "Typing..."
@@ -58,7 +60,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
       });
     } catch (error) {
       console.error('Fetch error:', error);
-
+  
       setChat((prev) => {
         const updated = [...prev];
         updated.pop(); // remove "Typing..."
@@ -67,7 +69,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
     } finally {
       setIsLoading(false); // Done loading
     }
-  }, [input, translation, isLoading]);
+  }, [input, translation]);  
 
   const clearChat = () => {
     setChat([]);
