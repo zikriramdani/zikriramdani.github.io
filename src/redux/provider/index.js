@@ -23,7 +23,7 @@ export default function ReduxProvider({ children }) {
 
   useEffect(() => {
     AOS.init(); // Inisialisasi animasi AOS (animate on scroll)
-    
+
     NProgress.start(); // Memulai progress bar saat komponen dimuat
 
     // Menghentikan progress bar setelah jeda (agar terlihat)
@@ -38,9 +38,5 @@ export default function ReduxProvider({ children }) {
     };
   }, []); // Hanya dijalankan sekali saat komponen pertama kali dimuat
 
-  return (
-    <Provider store={storeRef.current}>
-      {children}
-    </Provider>
-  );
+  return <Provider store={storeRef.current}>{children}</Provider>;
 }

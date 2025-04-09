@@ -78,5 +78,12 @@
     "Page Not Found": "Halaman Tidak Ditemukan",
     "Sorry the page you are looking for does not exist": "Maaf, halaman yang Anda cari tidak ada.",
     "Go back to the homepage": "Kembali ke halaman utama"
-  }
+  },
+
+  "assistant": "🤖 Asisten AI",
+  "type_message": "Tanyakan apa saja",
+  "send": "Kirim",
+  "typing": "Sedang mengetik...",
+  "ai_error": "Maaf, saya tidak bisa memberikan jawaban.",
+  "ai_fetch_error": "Terjadi kesalahan saat mengambil jawaban dari AI."
 }
