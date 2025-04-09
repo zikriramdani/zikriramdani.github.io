@@ -16,11 +16,8 @@ const Page = () => {
 
   return (
     <Fragment>
-      <div
+      {/* <div
         className="c-main-container js-main-container"
-        data-aos-easing="ease-out-back"
-        data-aos-duration="1000"
-        data-aos-delay="0"
       >
         <Headers translation={t} generatePDF={false} />
         <Intros translation={t} />
@@ -29,7 +26,7 @@ const Page = () => {
         <Certificates translation={t} />
         <Educations translation={t} />
         <Portfolios translation={t} />
-      </div>
+      </div> */}
     </Fragment>
   );
 };
