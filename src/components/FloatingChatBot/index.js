@@ -93,13 +93,13 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
       >
         <div className="chat-header">
           <span>{translation('assistant')}</span>
-          <div className="chat-header-actions">
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
             <button onClick={clearChat} className="clear-chat-btn">
               {translation('clear_chat')}
             </button>
-            <button onClick={toggleChat} className="close-chat-btn">
+            <span onClick={toggleChat} style={{ cursor: 'pointer' }}>
               <i className="fa fa-2x fa-close" style={{ color: '#000' }} />
-            </button>
+            </span>
           </div>
         </div>
 
