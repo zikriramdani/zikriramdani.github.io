@@ -12,7 +12,20 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
   const chatBodyRef = useRef(null);
   const LOCAL_STORAGE_KEY = 'chatMessages';
 
-  const toggleChat = () => setIsOpen((prev) => !prev);
+  const toggleChat = () => {
+    setIsOpen((prev) => {
+      const newState = !prev;
+  
+      // Jika membuka chat, scroll ke bawah setelah animasi selesai
+      if (!prev) {
+        setTimeout(() => {
+          scrollToBottom();
+        }, 500); // Sesuaikan dengan durasi animasi di CSS (500ms di contoh ini)
+      }
+  
+      return newState;
+    });
+  }
 
   const scrollToBottom = useCallback(() => {
     if (chatBodyRef.current) {
@@ -75,7 +88,9 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
 
   useEffect(() => {
     const savedChat = localStorage.getItem(LOCAL_STORAGE_KEY);
-    if (savedChat) setChat(JSON.parse(savedChat));
+    if (savedChat) {
+      setChat(JSON.parse(savedChat));
+    }
   }, []);
 
   useEffect(() => {
