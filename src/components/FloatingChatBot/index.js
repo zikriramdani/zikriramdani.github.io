@@ -29,7 +29,10 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
 
   const scrollToBottom = useCallback(() => {
     if (chatBodyRef.current) {
-      chatBodyRef.current.scrollTop = chatBodyRef.current.scrollHeight;
+      chatBodyRef.current.scrollTo({
+        top: chatBodyRef.current.scrollHeight,
+        behavior: 'smooth',
+      });
     }
   }, []);
 
