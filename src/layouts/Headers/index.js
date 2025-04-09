@@ -1,11 +1,13 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import LanguageSwitcher from '@/layouts/LanguageSwitcher';
 import MobileBottomNavigation from '@/layouts/MobileBottomNavigation';
 import Navigation from '@/layouts/Navigation';
+import { useTranslation } from 'next-i18next';
 
 const Index = (props) => {
-  const { translation } = props;
+  const { translation, generatePDF } = props;
+  const { i18n } = useTranslation();
 
   const [copySuccess, setCopySuccess] = useState(translation('Copied!'));
 
@@ -24,24 +26,34 @@ const Index = (props) => {
 
   useEffect(() => {
     setCopySuccess(translation('Copied!'));
-  }, [translation]);
+  }, [translation, i18n.language]);
 
   return (
     <section className="o-section o-section--header t-section t-section--header" id="top">
-      <div className="DownloadPDF" data-aos="fade-left" data-aos-delay="200">
-        <a
-          href="assets/pdf/CVZikriRamdani.pdf"
-          target="_blank"
-          title="Download CV Zikri Ramdani"
-          rel="noreferrer"
-        >
-          <div className="DownloadPDF--Box">
-            {/* <i className="fa fa-2x fa-file-pdf-o" style={{ color: 'black' }}></i> */}
-            <div dangerouslySetInnerHTML={{ __html: translation('Download CV') }}></div>
+      {generatePDF === false ? (
+        ''
+      ) : (
+        <Fragment>
+          <div className="DownloadPDF" data-aos="fade-left" data-aos-delay="200">
+            <a
+              href={
+                i18n.language === 'en'
+                  ? 'assets/pdf/EN-CVZikriRamdani.pdf'
+                  : 'assets/pdf/ID-CVZikriRamdani.pdf'
+              }
+              target="_blank"
+              title="Download CV Zikri Ramdani"
+              rel="noreferrer"
+            >
+              <div className="DownloadPDF--Box">
+                {/* <i className="fa fa-2x fa-file-pdf-o" style={{ color: 'black' }}></i> */}
+                <div dangerouslySetInnerHTML={{ __html: translation('Download CV') }}></div>
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-      <LanguageSwitcher translation={translation} />
+          <LanguageSwitcher translation={translation} />
+        </Fragment>
+      )}
       <div className="c-header">
         <div className="o-section__header-bg t-section__header"></div>
         <div className="o-section__content-bg t-section__content"></div>
@@ -242,8 +254,14 @@ const Index = (props) => {
           </div>
         </div>
       </div>
-      <Navigation translation={translation} />
-      <MobileBottomNavigation translation={translation} />
+      {generatePDF === false ? (
+        ''
+      ) : (
+        <Fragment>
+          <Navigation translation={translation} />
+          <MobileBottomNavigation translation={translation} />
+        </Fragment>
+      )}
     </section>
   );
 };
