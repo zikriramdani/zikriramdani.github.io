@@ -35,6 +35,20 @@
   transform: translateY(0);
 }
 
+.chatbot-box.fullpage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: none;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+}
+
 .chat-header {
   background: #e0a80d;
   color: black;
@@ -42,6 +56,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  span {
+    font-size: 1.2rem;
+  }
 }
 
 .chat-body {
@@ -76,6 +94,9 @@
   padding: 10px;
   border-top: 1px solid #ddd;
   background: #fff;
+  .w-100 {
+    width: 100%;
+  }
 }
 
 .chat-input input {
@@ -90,7 +111,6 @@
     outline: none;
   }
 }
-
 .chat-input button {
   margin-left: 8px;
   background: #e0a80d;
@@ -99,6 +119,12 @@
   border-radius: 6px;
   padding: 6px 12px;
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Transisi yang halus saat hover */
+
+  &:hover {
+    background: #c87a0b; /* Warna lebih gelap saat hover */
+  }
+
   &:disabled {
     opacity: 0.6;
     cursor: not-allowed;
@@ -111,4 +137,15 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+
+  &:hover {
+    background: #d32f2f; /* merah gelap saat hover */
+  }
+
+  &:disabled {
+    background: #ccc; /* warna abu-abu */
+    color: #666; /* warna teks abu */
+    cursor: not-allowed; /* kursor tidak bisa klik */
+    opacity: 0.7; /* transparansi */
+  }
 }
