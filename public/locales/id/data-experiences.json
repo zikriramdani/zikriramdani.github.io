@@ -8,15 +8,7 @@
       "start_date": "Des 2016",
       "end_date": "Saat ini",
       "location": "Tangerang",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Mengerjakan berbagai proyek pengembangan website untuk klien individu dan bisnis kecil hingga menengah.</li><li>Berpengalaman dalam membuat website responsif menggunakan HTML, CSS, JavaScript, PHP, serta framework seperti Laravel, React.js, Next.js dan platform CMS seperti WordPress.</li><li>Membantu klien dalam kebutuhan kustomisasi, integrasi API, optimasi SEO dasar, dan pengelolaan hosting/domain.</li><li>Fokus pada pembuatan website yang user-friendly, cepat, dan sesuai kebutuhan bisnis klien, dengan pemanfaatan Bootstrap atau Tailwind CSS untuk desain responsif dan modern.</li><li>Berkomitmen untuk memberikan solusi kreatif, tepat waktu, dan berorientasi pada hasil.</li></ul>"
-=======
-      "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Mengerjakan berbagai proyek pengembangan website untuk klien individu dan bisnis kecil hingga menengah.</li><li>Berpengalaman dalam membuat website responsif menggunakan HTML, CSS, JavaScript, PHP, serta framework seperti Laravel, React.js, Next.js dan platform CMS seperti WordPress.</li><li>Membantu klien dalam kebutuhan kustomisasi, integrasi API, optimasi SEO dasar, dan pengelolaan hosting/domain.</li><li>Fokus pada pembuatan website yang user-friendly, cepat, dan sesuai kebutuhan bisnis klien, dengan pemanfaatan Bootstrap atau Tailwind CSS untuk desain responsif dan modern.</li><li>Berkomitmen untuk memberikan solusi kreatif, tepat waktu, dan berorientasi pada hasil.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Mengerjakan berbagai proyek pengembangan website untuk klien individu dan bisnis kecil hingga menengah.</li><li>Berpengalaman dalam membuat website responsif menggunakan HTML, CSS, JavaScript, PHP, serta framework seperti Laravel, React.js, Next.js dan platform CMS seperti WordPress.</li><li>Membantu klien dalam kebutuhan kustomisasi, integrasi API, optimasi SEO dasar, dan pengelolaan hosting/domain.</li><li>Fokus pada pembuatan website yang user-friendly, cepat, dan sesuai kebutuhan bisnis klien, dengan pemanfaatan Bootstrap atau Tailwind CSS untuk desain responsif dan modern.</li><li>Berkomitmen untuk memberikan solusi kreatif, tepat waktu, dan berorientasi pada hasil.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 2,
@@ -26,15 +18,7 @@
       "start_date": "Nov 2022",
       "end_date": "Nov 2024",
       "location": "Jakarta Selatan",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<h4>Project: Akuntansi</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengkonversi desain Figma menjadi komponen React.js responsif dengan menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Integrasi API ke dalam proyek React.js.</li><li>Upgrade aplikasi Laravel dari versi 9 ke 11.</li><li>Menggunakan Docker untuk pengelolaan environment development.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
-=======
-      "job_desc": "<h4>Project: Akuntansi</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengkonversi desain Figma menjadi komponen React.js responsif dengan menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Integrasi API ke dalam proyek React.js.</li><li>Upgrade aplikasi Laravel dari versi 9 ke 11.</li><li>Menggunakan Docker untuk pengelolaan environment development.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<h4>Project: Akuntansi</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengkonversi desain Figma menjadi komponen React.js responsif dengan menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Integrasi API ke dalam proyek React.js.</li><li>Upgrade aplikasi Laravel dari versi 9 ke 11.</li><li>Menggunakan Docker untuk pengelolaan environment development.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 3,
@@ -44,15 +28,7 @@
       "start_date": "Agu 2021",
       "end_date": "Okt 2022",
       "location": "Bandung",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<h4>Project: Application Portfolio Management (APM) & DQ Rules</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke React.js dengan fokus pada akurasi visual dan responsivitas, serta menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Melakukan integrasi API ke dalam aplikasi berbasis React.js untuk meningkatkan fungsionalitas sistem.</li><li>Mengembangkan API menggunakan Golang untuk mendukung kebutuhan backend aplikasi.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
-=======
-      "job_desc": "<h4>Project: Application Portfolio Management (APM) & DQ Rules</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke React.js dengan fokus pada akurasi visual dan responsivitas, serta menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Melakukan integrasi API ke dalam aplikasi berbasis React.js untuk meningkatkan fungsionalitas sistem.</li><li>Mengembangkan API menggunakan Golang untuk mendukung kebutuhan backend aplikasi.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<h4>Project: Application Portfolio Management (APM) & DQ Rules</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke React.js dengan fokus pada akurasi visual dan responsivitas, serta menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Melakukan integrasi API ke dalam aplikasi berbasis React.js untuk meningkatkan fungsionalitas sistem.</li><li>Mengembangkan API menggunakan Golang untuk mendukung kebutuhan backend aplikasi.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 4,
@@ -62,15 +38,7 @@
       "start_date": "Feb 2020",
       "end_date": "Jul 2021",
       "location": "Tangerang Selatan",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<h4>Project: Robotic</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengelola database menggunakan MySQL dengan Sequelize ORM untuk memudahkan manipulasi data.</li><li>Mengembangkan API menggunakan Node.js untuk kebutuhan komunikasi antara sistem frontend dan backend.</li><li>Membuat dan mengelola web server menggunakan Node.js untuk mengoptimalkan performa aplikasi.</li><li>Melakukan slicing desain dari PSD dan mengintegrasikan ke Express.js untuk membangun struktur aplikasi web.</li><li>Menerapkan kontrol realtime menggunakan Socket.io untuk pengelolaan perintah robotik secara langsung.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten.</li><li>Melakukan deploy aplikasi ke server staging (VPS) untuk keperluan testing dan validasi sebelum live production.</li></ul>"
-=======
-      "job_desc": "<h4>Project: Robotic</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengelola database menggunakan MySQL dengan Sequelize ORM untuk memudahkan manipulasi data.</li><li>Mengembangkan API menggunakan Node.js untuk kebutuhan komunikasi antara sistem frontend dan backend.</li><li>Membuat dan mengelola web server menggunakan Node.js untuk mengoptimalkan performa aplikasi.</li><li>Melakukan slicing desain dari PSD dan mengintegrasikan ke Express.js untuk membangun struktur aplikasi web.</li><li>Menerapkan kontrol realtime menggunakan Socket.io untuk pengelolaan perintah robotik secara langsung.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten.</li><li>Melakukan deploy aplikasi ke server staging (VPS) untuk keperluan testing dan validasi sebelum live production.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<h4>Project: Robotic</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengelola database menggunakan MySQL dengan Sequelize ORM untuk memudahkan manipulasi data.</li><li>Mengembangkan API menggunakan Node.js untuk kebutuhan komunikasi antara sistem frontend dan backend.</li><li>Membuat dan mengelola web server menggunakan Node.js untuk mengoptimalkan performa aplikasi.</li><li>Melakukan slicing desain dari PSD dan mengintegrasikan ke Express.js untuk membangun struktur aplikasi web.</li><li>Menerapkan kontrol realtime menggunakan Socket.io untuk pengelolaan perintah robotik secara langsung.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten.</li><li>Melakukan deploy aplikasi ke server staging (VPS) untuk keperluan testing dan validasi sebelum live production.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 5,
@@ -80,15 +48,7 @@
       "start_date": "Jun 2019",
       "end_date": "Jan 2020",
       "location": "Jakarta Barat",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<h4>Project: DuniaGames</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke komponen Angular untuk memastikan implementasi responsif dan sesuai desain.</li><li>Mengintegrasikan API ke dalam aplikasi berbasis Angular untuk meningkatkan interaksi dan fungsionalitas aplikasi.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten.</li><li>Menangani bug fixing dan perbaikan fitur pada aplikasi Angular untuk meningkatkan kinerja dan stabilitas.</li><li>Melakukan deploy aplikasi ke environment staging dan production menggunakan Ubuntu OS, dengan pemanfaatan terminal dan FileZilla untuk pengelolaan file.</li></ul>"
-=======
-      "job_desc": "<h4>Project: DuniaGames</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke komponen Angular untuk memastikan implementasi responsif dan sesuai desain.</li><li>Mengintegrasikan API ke dalam aplikasi berbasis Angular untuk meningkatkan interaksi dan fungsionalitas aplikasi.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten.</li><li>Menangani bug fixing dan perbaikan fitur pada aplikasi Angular untuk meningkatkan kinerja dan stabilitas.</li><li>Melakukan deploy aplikasi ke environment staging dan production menggunakan Ubuntu OS, dengan pemanfaatan terminal dan FileZilla untuk pengelolaan file.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<h4>Project: DuniaGames</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke komponen Angular untuk memastikan implementasi responsif dan sesuai desain.</li><li>Mengintegrasikan API ke dalam aplikasi berbasis Angular untuk meningkatkan interaksi dan fungsionalitas aplikasi.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten.</li><li>Menangani bug fixing dan perbaikan fitur pada aplikasi Angular untuk meningkatkan kinerja dan stabilitas.</li><li>Melakukan deploy aplikasi ke environment staging dan production menggunakan Ubuntu OS, dengan pemanfaatan terminal dan FileZilla untuk pengelolaan file.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 6,
@@ -98,15 +58,7 @@
       "start_date": "Sep 2017",
       "end_date": "Mei 2019",
       "location": "Tangerang Selatan",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<h4>Project: Platform E-sports</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke aplikasi berbasis Laravel dan Vue.js, memastikan implementasi responsif dan sesuai desain.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten pada aplikasi berbasis Laravel dan Vue.js.</li><li>Implementasi integrasi Laravel ke dalam Vue.js.</li><li>Menangani bug fixing dan perbaikan fitur pada Laravel dan Vue.js untuk meningkatkan stabilitas dan performa aplikasi.</li></ul>"
-=======
-      "job_desc": "<h4>Project: Platform E-sports</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke aplikasi berbasis Laravel dan Vue.js, memastikan implementasi responsif dan sesuai desain.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten pada aplikasi berbasis Laravel dan Vue.js.</li><li>Implementasi integrasi Laravel ke dalam Vue.js.</li><li>Menangani bug fixing dan perbaikan fitur pada Laravel dan Vue.js untuk meningkatkan stabilitas dan performa aplikasi.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<h4>Project: Platform E-sports</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Melakukan slicing desain dari PSD ke aplikasi berbasis Laravel dan Vue.js, memastikan implementasi responsif dan sesuai desain.</li><li>Menggunakan Bootstrap untuk membangun antarmuka pengguna yang responsif dan konsisten pada aplikasi berbasis Laravel dan Vue.js.</li><li>Implementasi integrasi Laravel ke dalam Vue.js.</li><li>Menangani bug fixing dan perbaikan fitur pada Laravel dan Vue.js untuk meningkatkan stabilitas dan performa aplikasi.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 7,
@@ -116,15 +68,7 @@
       "start_date": "Jan 2015",
       "end_date": "Sep 2016",
       "location": "Tangerang Selatan",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Membangun Website menggunakan WordPress, mulai dari pengaturan tema, kustomisasi, hingga integrasi plugin untuk meningkatkan fungsionalitas.</li><li>Mendesain dan mengembangkan landing page menggunakan HTML, CSS, JavaScript, dan Bootstrap untuk menyediakan pengalaman pengguna yang optimal dan responsif.</li><li>Mengelola dan membuat server cPanel untuk klien dengan menggunakan WHM (Web Host Manager) dan cPanel, untuk memastikan pengelolaan hosting yang efisien dan aman.</li></ul>"
-=======
-      "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Membangun Website menggunakan WordPress, mulai dari pengaturan tema, kustomisasi, hingga integrasi plugin untuk meningkatkan fungsionalitas.</li><li>Mendesain dan mengembangkan landing page menggunakan HTML, CSS, JavaScript, dan Bootstrap untuk menyediakan pengalaman pengguna yang optimal dan responsif.</li><li>Mengelola dan membuat server cPanel untuk klien dengan menggunakan WHM (Web Host Manager) dan cPanel, untuk memastikan pengelolaan hosting yang efisien dan aman.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Membangun Website menggunakan WordPress, mulai dari pengaturan tema, kustomisasi, hingga integrasi plugin untuk meningkatkan fungsionalitas.</li><li>Mendesain dan mengembangkan landing page menggunakan HTML, CSS, JavaScript, dan Bootstrap untuk menyediakan pengalaman pengguna yang optimal dan responsif.</li><li>Mengelola dan membuat server cPanel untuk klien dengan menggunakan WHM (Web Host Manager) dan cPanel, untuk memastikan pengelolaan hosting yang efisien dan aman.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     },
     {
       "id": 8,
@@ -134,15 +78,7 @@
       "start_date": "Mei 2015",
       "end_date": "Agu 2015",
       "location": "Tangerang Selatan",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Membangun website menggunakan WordPress, termasuk pengaturan tema, kustomisasi desain, dan integrasi plugin untuk meningkatkan fungsionalitas dan performa.</li><li>Mendesain dan mengembangkan landing page menggunakan HTML, CSS, JavaScript, dan Bootstrap untuk memastikan pengalaman pengguna yang responsif dan optimal.</li><li>Membuat kloning website dengan meniru desain dan fungsionalitas situs yang ada, untuk keperluan pengembangan atau rebranding.</li></ul>"
-=======
-      "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-0 mb-0'><li>Membangun website menggunakan WordPress, termasuk pengaturan tema, kustomisasi desain, dan integrasi plugin untuk meningkatkan fungsionalitas dan performa.</li><li>Mendesain dan mengembangkan landing page menggunakan HTML, CSS, JavaScript, dan Bootstrap untuk memastikan pengalaman pengguna yang responsif dan optimal.</li><li>Membuat kloning website dengan meniru desain dan fungsionalitas situs yang ada, untuk keperluan pengembangan atau rebranding.</li></ul>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-      "job_desc": "<p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Membangun website menggunakan WordPress, termasuk pengaturan tema, kustomisasi desain, dan integrasi plugin untuk meningkatkan fungsionalitas dan performa.</li><li>Mendesain dan mengembangkan landing page menggunakan HTML, CSS, JavaScript, dan Bootstrap untuk memastikan pengalaman pengguna yang responsif dan optimal.</li><li>Membuat kloning website dengan meniru desain dan fungsionalitas situs yang ada, untuk keperluan pengembangan atau rebranding.</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
     }
   ]
 }
