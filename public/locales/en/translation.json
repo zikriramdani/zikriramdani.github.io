@@ -15,7 +15,11 @@
   "Intro": {
     "Intro": "Intro",
     "What I am all about": "What I am all about",
+<<<<<<< HEAD
     "Zikri Ramdani": "<p class='mb-0'>I am a Web Developer based in Kunciran Indah, Tangerang City.</p><ul class='mb-0 ml-3'><li>Committed to continuous learning and self-improvement.</li><li>Embraces challenges with a never-give-up attitude (No Bug, No Life).</li></ul>"
+=======
+    "Zikri Ramdani": "<p>I am a Web Developer based in Kunciran Indah, Tangerang City.<br/>- Committed to continuous learning and self-improvement.<br/>- Embraces challenges with a never-give-up attitude (No Bug, No Life).</p>"
+>>>>>>> 7dcc91f (Fix: Experience)
   },
 
   "Skills": {
