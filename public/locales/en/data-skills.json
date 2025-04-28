@@ -1,110 +1,71 @@
-[
-  {
-    "id": 1,
-    "name": "GIT",
-    "percents": 80
-  },
-  {
-    "id": 13,
-    "name": "Docker",
-    "percents": 80
-  },
-  {
-    "id": 10,
-    "name": "REACT JS",
-    "percents": 80
-  },
-  {
-    "id": 5,
-    "name": "LARAVEL",
-    "percents": 80
-  },
-  {
-    "id": 9,
-    "name": "NEXT JS",
-    "percents": 80
-  },
-
-  {
-    "id": 13,
-    "name": "Ubuntu",
-    "percents": 70
-  },
-  {
-    "id": 8,
-    "name": "ANGULAR",
-    "percents": 80
-  },
-
-  {
-    "id": 2,
-    "name": "GOLANG",
-    "percents": 50
-  },
-  {
-    "id": 7,
-    "name": "VUE JS",
-    "percents": 80
-  },
-  {
-    "id": 19,
-    "name": "MYSQL / MYSQL SEQUELIZE",
-    "percents": 80
-  },
-  {
-    "id": 15,
-    "name": "SCSS / CSS / SASS",
-    "percents": 80
-  },
-  {
-    "id": 4,
-    "name": "EXPRESS JS",
-    "percents": 80
-  },
-  {
-    "id": 17,
-    "name": "TYPESCRIPT",
-    "percents": 60
-  },
-  {
-    "id": 14,
-    "name": "CODEIGNITER",
-    "percents": 80
-  },
-  {
-    "id": 16,
-    "name": "JAVACRIPT",
-    "percents": 80
-  },
-  {
-    "id": 3,
-    "name": "Node Js",
-    "percents": 80
-  },
-  {
-    "id": 18,
-    "name": "JQUERY",
-    "percents": 80
-  },
-  {
-    "id": 6,
-    "name": "LUMEN",
-    "percents": 50
-  },
-
-  {
-    "id": 11,
-    "name": "REACT NATIVE",
-    "percents": 50
-  },
-  {
-    "id": 12,
-    "name": "SOCKET.IO",
-    "percents": 80
-  },
-  {
-    "id": 20,
-    "name": "CMS",
-    "percents": 80
-  }
-]
+{
+  "skills": [
+    {
+      "category": "Front-End Web Development",
+      "skills": [
+        "Proficient in HTML5, CSS3, and JavaScript (ES6+).",
+        "Experienced in using modern frameworks such as React.js, Next.js, Angular, and Vue.js.",
+        "Skilled in building responsive UIs with Bootstrap and Tailwind CSS."
+      ]
+    },
+    {
+      "category": "Back-End Web Development",
+      "skills": [
+        "Experienced in PHP development using the Laravel framework.",
+        "Skilled in building server-side applications with Node.js and Express.js.",
+        "Experienced in developing applications using Golang."
+      ]
+    },
+    {
+      "category": "Database Management",
+      "skills": [
+        "MySQL database administration and management.",
+        "Utilizing modern ORMs like Sequelize for database integration."
+      ]
+    },
+    {
+      "category": "API Development",
+      "skills": [
+        "Designing and implementing RESTful APIs.",
+        "Integrating third-party APIs and managing JSON-based data."
+      ]
+    },
+    {
+      "category": "Version Control & Collaboration",
+      "skills": [
+        "Practiced in Git and GitHub workflows.",
+        "Experienced with Docker for application containerization."
+      ]
+    },
+    {
+      "category": "Platforms & Frameworks",
+      "skills": [
+        "Developing and customizing WordPress websites.",
+        "UI/UX design using Figma.",
+        "Converting PSD designs into optimized HTML/JS structures (PSD to HTML/JS slicing)."
+      ]
+    },
+    {
+      "category": "Testing & Deployment",
+      "skills": [
+        "Implementing CI/CD pipelines for automated testing and deployment.",
+        "Managing staging servers (VPS) and deploying applications to production environments."
+      ]
+    },
+    {
+      "category": "Additional Tools & Technologies",
+      "skills": [
+        "Building real-time web applications using Socket.io.",
+        "Managing server hosting with WHM/cPanel."
+      ]
+    },
+    {
+      "category": "Other Skills",
+      "skills": [
+        "Experienced in managing projects independently or collaboratively within a team.",
+        "Adaptable, quick to learn, and able to work effectively in dynamic and challenging environments.",
+        "Highly solution-oriented and result-driven."
+      ]
+    }
+  ]
+}

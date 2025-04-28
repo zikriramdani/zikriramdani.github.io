@@ -58,9 +58,7 @@ const Experiences = (props) => {
                           {/* {item.employment_type} -  */}
                           {item.position}
                         </h4>
-                        <div className="c-work__location">
-                          {/* {item.location} */}
-                        </div>
+                        <div className="c-work__location">{/* {item.location} */}</div>
                       </div>
                       <div className="o-grid__col-md-7">
                         {/* <h4>Job Desc:</h4> */}
