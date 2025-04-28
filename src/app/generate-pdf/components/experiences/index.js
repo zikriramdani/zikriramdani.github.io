@@ -31,8 +31,9 @@ const Experiences = (props) => {
         <div className="o-section__container">
           <header
             className="o-section__header  t-section__header"
-            data-aos="fade-left"
-            data-aos-delay="0"
+            style={{
+              padding: '1.75rem 1.75rem 0'
+            }}
           >
             <div className="o-content">
               <h2 className="o-section__heading">{translation('Experience.Experience')}</h2>
@@ -42,10 +43,15 @@ const Experiences = (props) => {
             </div>
           </header>
 
-          <div className="o-section__content  t-section__content  u-pb-0">
+          <div
+            className="o-section__content  t-section__content  u-pb-0"
+            style={{
+              padding: '1.75rem 1.75rem 0'
+            }}
+          >
             <div className="a-experience-timeline  c-timeline  t-border-color">
               {experiencesList?.map((item, i) => (
-                <div className="c-timeline__item" key={i} data-aos="fade-up" data-aos-delay="0">
+                <div className="c-timeline__item" key={i}>
                   <div className="c-timeline__point  t-timeline__point  t-primary-bg"></div>
                   <div className="o-content">
                     <div className="o-grid">

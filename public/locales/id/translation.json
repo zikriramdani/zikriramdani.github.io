@@ -28,12 +28,12 @@
 
   "Skills": {
     "Skills": "Keahlian",
-    "Progress bars anyone": "Bilah kemajuan, ada yang tertarik?"
+    "Progress bars anyone": "Seperti bilah kemajuan, saya berkomitmen untuk terus meningkatkan keterampilan dan keahlian saya."
   },
 
   "Experience": {
     "Experience": "Pengalaman",
-    "Yes Ive been around": "Ya, saya sudah berpengalaman"
+    "Yes Ive been around": "Saya memiliki pengalaman yang relevan dan siap memberikan kontribusi terbaik."
   },
 
   "Certificate": {
@@ -42,9 +42,10 @@
 
   "Education": {
     "Education": "Pendidikan",
-    "Lazy isnt in my vocabulary": "Malas bukanlah kata dalam kosakata saya.",
+    "Lazy isnt in my vocabulary": "Tantangan bukanlah penghalang, melainkan kesempatan untuk terus belajar dan berkembang.",
     "Sarjana Komputer": "Sarjana Komputer",
-    "STMIK PGRI TANGERANG": "<p>STMIK PGRI TANGERANG adalah lembaga pendidikan komputer di bawah naungan Yayasan Pendidikan Tinggi PGRI. Yayasan ini menjalankan amanat luhur yang terkandung dalam Pembukaan Undang-Undang Dasar 1945, yaitu misi mencerdaskan kehidupan bangsa Indonesia.<br/><br/><b>Indeks Prestasi Kumulatif (IPK): 3.31</b></p>"
+    "STMIK PGRI TANGERANG": "<p>STMIK PGRI TANGERANG adalah lembaga pendidikan komputer di bawah naungan Yayasan Pendidikan Tinggi PGRI. Yayasan ini menjalankan amanat luhur yang terkandung dalam Pembukaan Undang-Undang Dasar 1945, yaitu misi mencerdaskan kehidupan bangsa Indonesia.</p>",
+    "IPK": "<b>Indeks Prestasi Kumulatif (IPK): 3.31</b>"
   },
 
   "Profiles": {
@@ -94,5 +95,6 @@
   "typing": "Sedang mengetik...",
   "ai_error": "Maaf, saya tidak bisa memberikan jawaban.",
   "ai_fetch_error": "Terjadi kesalahan saat mengambil jawaban dari AI.",
-  "clear_chat": "Hapus Obrolan"
+  "clear_chat": "Hapus Obrolan",
+  "harap_tunggu": "Sedang membuat PDF... Mohon tunggu!"
 }

@@ -28,12 +28,12 @@
 
   "Skills": {
     "Skills": "Skills",
-    "Progress bars anyone": "Progress bars, anyone"
+    "Progress bars anyone": "Like a progress bar, I am committed to continuously improving my skills and expertise."
   },
 
   "Experience": {
     "Experience": "Experience",
-    "Yes Ive been around": "Yes. I've been around"
+    "Yes Ive been around": "I have relevant experience and am ready to contribute at my best."
   },
 
   "Certificate": {
@@ -42,9 +42,10 @@
 
   "Education": {
     "Education": "Education",
-    "Lazy isnt in my vocabulary.": "Lazy isn't in my vocabulary.",
+    "Lazy isnt in my vocabulary.": "Challenges are not obstacles, but opportunities to keep learning and growing.",
     "Sarjana Komputer": "Bachelor of Computer Science",
-    "STMIK PGRI TANGERANG": "<p>STMIK PGRI TANGERANG is a computer education institution under the auspices of the PGRI Higher Education Foundation. The foundation carries out the noble mandate contained in the Preamble of the 1945 Constitution,which is the mission to educate the lives of the Indonesian people.<br/><br/><b>Cumulative Grade Point Average (GPA): 3.31</b></p>"
+    "STMIK PGRI TANGERANG": "<p>STMIK PGRI TANGERANG is a computer education institution under the auspices of the PGRI Higher Education Foundation. The foundation carries out the noble mandate contained in the Preamble of the 1945 Constitution,which is the mission to educate the lives of the Indonesian people.</p>",
+    "IPK": "<b>Cumulative Grade Point Average (GPA): 3.31</b>"
   },
 
   "Profiles": {
@@ -94,5 +95,6 @@
   "typing": "Typing...",
   "ai_error": "Sorry, I couldn't respond.",
   "ai_fetch_error": "Error fetching AI response.",
-  "clear_chat": "Clear Chat"
+  "clear_chat": "Clear Chat",
+  "harap_tunggu": "PDF is being generated... Please wait."
 }
