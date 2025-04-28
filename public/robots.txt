@@ -6,4 +6,4 @@ Allow: /
 Host: https://zikriramdani.github.io
 
 # Sitemaps
-Sitemap: https://zikriramdani.github.io/sitemap-0.xml
+Sitemap: https://zikriramdani.github.io/sitemap.xml

@@ -1,95 +1,16 @@
 'use client';
-import React, { Fragment, useState, useEffect } from 'react';
-import { jsPDF } from 'jspdf';
-import html2canvas from 'html2canvas';
 
-import Headers from '@/app/generate-pdf/components/Headers';
-import Intros from '@/app/generate-pdf/components/intros';
-import Skills from '@/app/generate-pdf/components/skills';
-import Experiences from '@/app/generate-pdf/components/experiences';
-import Certificates from '@/app/generate-pdf/components/certificates';
-import Educations from '@/app/generate-pdf/components/educations';
-
+import { Suspense } from 'react';
+import GeneratePdfPage from './GeneratePdfPage'; // kita split Page.js
 import { useTranslation } from 'react-i18next';
-import { useSearchParams, useRouter } from 'next/navigation';
 
-const Page = () => {
+export default function Page() {
   const { t } = useTranslation('translation');
-  const searchParams = useSearchParams();
-  const router = useRouter(); // Tambahkan useRouter
-
-  const [isLoading, setIsLoading] = useState(false);
-
-  const generatePDF = () => {
-    const input = document.querySelector('.generate-pdf');
-
-    setIsLoading(true);
-
-    html2canvas(input, { scrollY: -window.scrollY }).then((canvas) => {
-      const imgData = canvas.toDataURL('image/png');
-      const doc = new jsPDF('p', 'mm', 'a4');
-
-      const pageWidth = 210;
-      const pageHeight = 297;
-
-      const imgWidth = pageWidth;
-      const imgHeight = (canvas.height * imgWidth) / canvas.width;
-
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(12);
-      doc.setTextColor(0, 0, 0);
-
-      const scaleFactor = Math.min(pageHeight / imgHeight, 1);
-      const imgX = (pageWidth - imgWidth * scaleFactor) / 2;
-      const imgY = (pageHeight - imgHeight * scaleFactor) / 2;
-
-      doc.addImage(imgData, 'PNG', imgX, imgY, imgWidth * scaleFactor, imgHeight * scaleFactor);
-
-      // Save the PDF and after that redirect
-      doc.save('CV Zikri Ramdani ( zikriramdani dot github dot io ).pdf');
-
-      setIsLoading(false);
-
-      // Redirect to home after short delay to ensure download starts
-      setTimeout(() => {
-        router.push('/');
-      }, 0); // kasih delay sedikit biar save sempat jalan
-    });
-  };
-
-  useEffect(() => {
-    if (searchParams.get('autoGenerate') === 'true') {
-      setTimeout(() => {
-        generatePDF();
-      }, 0);
-    }
-  }, [searchParams]);
-
   return (
-    <Fragment>
-      {isLoading ? (
-        <div
-          style={{
-            height: '100%',
-            width: '100%',
-            textAlign: 'center',
-            alignContent: 'center'
-          }}
-        >
-          <h1>{t('harap_tunggu')}</h1>
-        </div>
-      ) : (
-        <div className="generate-pdf">
-          <Headers translation={t} />
-          <Intros translation={t} />
-          <Educations translation={t} generatePDF={false} />
-          <Skills translation={t} />
-          <Experiences translation={t} generatePDF={false} />
-          <Certificates translation={t} />
-        </div>
-      )}
-    </Fragment>
+    <Suspense
+      fallback={null}
+    >
+      <GeneratePdfPage />
+    </Suspense>
   );
-};
-
-export default Page;
+}
