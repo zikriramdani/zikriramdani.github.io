@@ -15,15 +15,7 @@
   "Intro": {
     "Intro": "Perkenalan",
     "What I am all about": "Tentang Saya",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "Zikri Ramdani": "<p class='mb-0'>Saya seorang Web Developer yang berdomisili di Kunciran Indah, Kota Tangerang.</p><ul class='mb-0 ml-3'><li>Berkomitmen untuk terus belajar dan mengembangkan diri.</li><li>Memiliki semangat pantang menyerah (No Bug, No Life)</li></ul>"
-=======
-    "Zikri Ramdani": "<p>Saya seorang Web Developer yang berdomisili di Kunciran Indah, Kota Tangerang.<br/>- Berkomitmen untuk terus belajar dan mengembangkan diri.<br/>- Memiliki semangat pantang menyerah (No Bug, No Life).</p>"
->>>>>>> 7dcc91f (Fix: Experience)
-=======
-    "Zikri Ramdani": "<p class='mb-0'>Saya seorang Web Developer yang berdomisili di Kunciran Indah, Kota Tangerang.</p><ul class='mb-0 ml-3'><li>Berkomitmen untuk terus belajar dan mengembangkan diri.</li><li>Memiliki semangat pantang menyerah (No Bug, No Life)</li></ul>"
->>>>>>> 3c393e5 (Fix: Skills)
   },
 
   "Skills": {
