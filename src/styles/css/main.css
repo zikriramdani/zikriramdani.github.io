@@ -2815,3 +2815,7 @@ img[height] {
 .btn-nav-desktop:hover {
   color: #e0a80d; /* Hover text color */
 }
+
+.ml-0 {
+  margin-left: 0;
+}

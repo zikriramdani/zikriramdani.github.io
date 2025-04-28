@@ -2,73 +2,83 @@
   "experiences": [
     {
       "id": 1,
+      "company_name": "Freelance",
+      "employment_type": "Purna Waktu",
+      "position": "Web Developer",
+      "start_date": "Des 2016",
+      "end_date": "Saat ini",
+      "location": "Tangerang",
+      "job_desc": "<p class='mb-0'><b>Responsibilities:</b></p><ul class='ml-0 mb-0'><li>Worked on various website development projects for individual clients and small to medium-sized businesses.</li><li>Experienced in creating responsive websites using HTML, CSS, JavaScript, PHP, as well as frameworks such as Laravel, React.js, Next.js and CMS platforms such as WordPress.</li><li>Assist clients with customization needs, API integration, basic SEO optimization, and hosting/domain management.</li><li>Focused on creating user-friendly websites that are fast and aligned with client business needs, utilizing Bootstrap or Tailwind CSS for responsive and modern designs.</li><li>Committed to providing creative, timely, and result-oriented solutions.</li></ul>"
+    },
+    {
+      "id": 2,
       "company_name": "PT BRIDGENOTE INDONESIA",
       "employment_type": "Full Time",
       "position": "Frontend Engineer",
       "start_date": "Nov 2022",
       "end_date": "Nov 2024",
       "location": "South Jakarta",
-      "job_desc": "<p>Accounting, Admin & API Project<br><br>- GIT<br>- Converting Figma to React JS<br>- Integrating API with React JS<br>- Bug Fixes<br>- Upgrading Laravel from 9 to 11<br>- Docker<br>- Ubuntu</p>"
+      "job_desc": "<h4><b>Project:</b> Accounting</h4><p class='mb-0'><b>Responsibilities:</b></p><ul class='ml-0 mb-0'><li>Using GIT for version control.</li><li>Convert Figma designs into responsive React.js components using Bootstrap to speed up UI development.</li><li>Integrating the API into the React.js project.</li><li>Upgrading the Laravel application from version 9 to 11.</li><li>Using Docker for development environment management.</li><li>Performing bug fixing on React.js and Laravel applications to improve system stability and performance.</li></ul>"
     },
     {
-      "id": 2,
+      "id": 3,
       "company_name": "PT SHARING VISION INDONESIA",
       "employment_type": "Full Time",
       "position": "Web Developer",
       "start_date": "Aug 2021",
       "end_date": "Oct 2022",
       "location": "Bandung",
-      "job_desc": "<p>Application Portfolio Management (APM) & DQ Rules Project<br><br>- GIT<br>- Converting PSD to React JS<br>- Integrating API with React JS<br>- Creating APIs (Golang)<br></p>"
+      "job_desc": "<h4><b>Project:</b> Application Portfolio Management (APM) & DQ Rules</h4><p class='mb-0'><b>Responsibilities:</b></p><ul class='ml-0 mb-0'><li>Using GIT for version control.</li><li>Slicing the design from PSD to React.js with a focus on visual accuracy and responsiveness, and using Bootstrap to speed up UI development.</li><li>Integrated APIs into React.js applications to enhance application functionality.</li><li>Developed backend APIs using Golang to meet system requirements and ensure scalability.</li><li>Performing bug fixing on React.js and Laravel applications to improve system stability and performance.</li></ul>"
     },
     {
-      "id": 3,
+      "id": 4,
       "company_name": "PT TEKNOLOGI HANDAL LANCAR",
       "employment_type": "Full Time",
       "position": "Web Developer",
       "start_date": "Feb 2020",
       "end_date": "Jul 2021",
       "location": "South Tangerang",
-      "job_desc": "<p>Robotics Project<br><br>- GIT<br>- Database MySQL (Sequelize)<br>- Creating APIs (Node.js)<br>- Building Web Servers (Node.js)<br>- Converting PSD to Express JS<br>- Real-Time Control (Socket.io)<br>- Deploying Staging (VPS)<br></p>"
+      "job_desc": "<h4><b>Project:</b> Robotic</h4><p class='mb-0'><b>Responsibilities:</b></p><ul class='ml-0 mb-0'><li>Using GIT for version control.</li><li>Handled MySQL database operations with Sequelize ORM to streamline data management.</li><li>Developed RESTful APIs using Node.js to support backend services.</li><li>Built and maintained the web server with Node.js to ensure optimal performance.</li><li>Converted PSD designs into Express.js applications for web service implementation.</li><li>Implemented real-time control functionality using Socket.io for robotic operations.</li><li>Used Bootstrap to build a responsive and consistent user interface.</li><li>Deployed applications to a staging VPS server for testing and pre-production validation.</li></ul>"
     },
     {
-      "id": 4,
+      "id": 5,
       "company_name": "PT AKO MEDIA ASIA",
       "employment_type": "Full Time",
       "position": "Web Developer",
       "start_date": "Jun 2019",
       "end_date": "Jan 2020",
       "location": "West Jakarta",
-      "job_desc": "<p>DuniaGames Project<br><br>- GIT<br>- Converting PSD to Angular<br>- Integrating API with Angular<br>- Bug Fixes (Angular)<br>- Deploying Staging and Production (Ubuntu OS via Terminal and Filezilla)</p>"
+      "job_desc": "<h4><b>Project:</b> DuniaGames</h4><p class='mb-0'><b>Responsibilities:</b></p><ul class='ml-0 mb-0'><li>Using GIT for version control.</li><li>Converted PSD designs into Angular components to ensure responsive and pixel-perfect implementation.</li><li>Integrated APIs into Angular applications to enhance functionality and user interaction.</li><li>Used Bootstrap to build a responsive and consistent user interface.</li><li>Performed bug fixing and feature enhancements on Angular applications to improve performance and stability.</li><li>Deployed applications to staging and production environments using Ubuntu OS, utilizing terminal commands and FileZilla for file management.</li></ul>"
     },
     {
-      "id": 5,
+      "id": 6,
       "company_name": "PT YAMISOK TECH INDONESIA",
       "employment_type": "Full Time",
       "position": "Web Developer",
       "start_date": "Sep 2017",
       "end_date": "May 2019",
       "location": "South Tangerang",
-      "job_desc": "<p>- GIT<br>- Converting PSD to Laravel/Vue JS<br>- Implementing Dynamic Data Functions (Laravel and Vue JS)<br>- Bug Fixes (Laravel and Vue JS)</p>"
+      "job_desc": "<h4><b>Project:</b> E-sports Platform</h4><p class='mb-0'><b>Responsibilities:</b></p><ul class='ml-0 mb-0'><li>Using GIT for version control.</li><li>Slicing design from PSD to Laravel and Vue.js based application, ensuring responsive and design compliant implementation.</li><li>Used Bootstrap to build a responsive and consistent user interface for both Laravel and Vue.js applications.</li><li>Implementation of Laravel integration into Vue.js.</li><li>Handle bug fixing and feature improvements in Laravel and Vue.js to improve application stability and performance.</li></ul>"
     },
     {
-      "id": 6,
+      "id": 7,
       "company_name": "THECONVERSION",
       "employment_type": "Part Time",
       "position": "Web Developer",
       "start_date": "Jan 2015",
       "end_date": "Sep 2016",
       "location": "South Tangerang",
-      "job_desc": "<p>- Building Websites (WordPress)<br>- Creating Landing Pages (HTML, CSS, and JavaScript)<br>- Managing/Setting up Client Servers (WHM and cPanel)</p>"
+      "job_desc": "<h4><b>Responsibilities:</b></h4><ul class='ml-0 mb-0'><li>Developed websites using WordPress, from theme setup and customization to plugin integration, ensuring enhanced functionality.</li><li>Designed and developed landing page using HTML, CSS, JavaScript, and Bootstrap to provide an optimal and responsive user experience.</li><li>Managed and set up cPanel servers for clients using WHM (Web Host Manager) and cPanel, ensuring efficient and secure hosting management.</li></ul>"
     },
     {
-      "id": 7,
+      "id": 8,
       "company_name": "PT TDW RESOURCES",
       "employment_type": "Part Time",
       "position": "Web Developer",
       "start_date": "May 2015",
       "end_date": "Aug 2015",
       "location": "South Tangerang",
-      "job_desc": "<p>- Building Websites (WordPress)<br>- Creating Landing Pages (HTML, CSS, and JavaScript)<br>- Cloning Websites</p>"
+      "job_desc": "<h4><b>Responsibilities:</b></h4><ul class='ml-0 mb-0'><li>Developed websites using WordPress, including theme setup, design customization, and plugin integration to enhance functionality and performance.</li><li>Designed and developed landing page using HTML, CSS, JavaScript, and Bootstrap to ensure a responsive and optimal user experience.</li><li>Created website clones, replicating the design and functionality of existing sites for development or rebranding purposes.</li></ul>"
     }
   ]
 }
