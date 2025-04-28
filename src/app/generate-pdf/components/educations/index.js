@@ -2,15 +2,20 @@
 import React, { Fragment } from 'react';
 
 const Education = (props) => {
-  const { translation, generatePDF = true } = props;
+  const { translation } = props;
   return (
     <section className="o-section t-section" id="education">
       <div className="o-section__header-bg t-section__header"></div>
       <div className="o-section__content-bg t-section__content"></div>
 
       <div className="o-container">
-        <div className="o-section__container" data-aos="fade-up" data-aos-delay="0">
-          <header className="o-section__header t-section__header">
+        <div className="o-section__container">
+          <header
+            className="o-section__header t-section__header"
+            style={{
+              padding: '1.75rem 1.75rem 0'
+            }}
+          >
             <div className="o-content a-content">
               <h2 className="o-section__heading">{translation('Education.Education')}</h2>
               <div className="o-content__body o-section__description">
@@ -19,15 +24,16 @@ const Education = (props) => {
             </div>
           </header>
 
-          <div className="o-section__content t-section__content u-pt-0">
-            <div className="o-content">
-              <div className="a-education-timeline c-timeline t-border-color o-section__full-top-space a-content">
-                <div className="c-timeline__end t-border-color"></div>
-
+          <div
+            className="o-section__content t-section__content"
+            style={{
+              padding: '1.75rem 1.75rem 0'
+            }}
+          >
+            <div className="o-content pb-0">
+              <div className="a-education-timeline t-border-color a-content">
                 <div className="c-timeline__item">
-                  <div className="c-timeline__point t-timeline__point t-primary-bg a-content"></div>
-
-                  <div className="o-content">
+                  <div className="o-content pb-0">
                     <div className="o-grid a-content">
                       <div className="o-grid__col-md-5">
                         <div className="c-work__timeframe">2012 &ndash; 2016</div>
@@ -42,14 +48,6 @@ const Education = (props) => {
                           }}
                         ></div>
                       </div>
-                      {generatePDF && (
-                        <div
-                          className="o-grid__col-md-7"
-                          dangerouslySetInnerHTML={{
-                            __html: translation('Education.STMIK PGRI TANGERANG')
-                          }}
-                        ></div>
-                      )}
                     </div>
                   </div>
                 </div>

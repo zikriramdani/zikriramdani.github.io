@@ -36,12 +36,13 @@ const Index = (props) => {
         <Fragment>
           <div className="DownloadPDF" data-aos="fade-left" data-aos-delay="200">
             <a
-              href={
-                i18n.language === 'en'
-                  ? 'assets/pdf/EN-CVZikriRamdani.pdf'
-                  : 'assets/pdf/ID-CVZikriRamdani.pdf'
-              }
-              target="_blank"
+              // href={
+              //   i18n.language === 'en'
+              //     ? 'assets/pdf/EN-CVZikriRamdani.pdf'
+              //     : 'assets/pdf/ID-CVZikriRamdani.pdf'
+              // }
+              href="/generate-pdf?autoGenerate=true"
+              // target="_blank"
               title="Download CV Zikri Ramdani"
               rel="noreferrer"
             >
