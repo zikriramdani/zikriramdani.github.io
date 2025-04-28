@@ -2552,7 +2552,7 @@ img[height] {
   }
 }
 .mb-0 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .c-avatar__img {
@@ -2818,4 +2818,7 @@ img[height] {
 
 .ml-0 {
   margin-left: 0;
+}
+.ml-3 {
+  margin-left: 1rem;
 }
