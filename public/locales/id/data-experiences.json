@@ -16,7 +16,7 @@
       "employment_type": "Purna Waktu",
       "position": "Frontend Engineer",
       "start_date": "Nov 2022",
-      "end_date": "Nov 2024",
+      "end_date": "Saat ini",
       "location": "Jakarta Selatan",
       "job_desc": "<h4>Project: Akuntansi</h4><p class='mb-0'><b>Tugas dan Kontribusi:</b></p><ul class='ml-3 mb-0'><li>Menggunakan GIT untuk version control.</li><li>Mengkonversi desain Figma menjadi komponen React.js responsif dengan menggunakan Bootstrap untuk mempercepat pengembangan UI.</li><li>Integrasi API ke dalam proyek React.js.</li><li>Upgrade aplikasi Laravel dari versi 9 ke 11.</li><li>Menggunakan Docker untuk pengelolaan environment development.</li><li>Melakukan bug fixing pada aplikasi React.js dan Laravel untuk meningkatkan stabilitas dan performa sistem.</li></ul>"
     },
