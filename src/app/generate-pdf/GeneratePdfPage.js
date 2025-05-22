@@ -96,7 +96,7 @@ const GeneratePdfPage = () => {
           <Intros translation={t} />
           <Educations translation={t} generatePDF={false} />
           <Skills translation={t} />
-          <Experiences translation={t} generatePDF={false} />
+          <Experiences translation={t} generatePDF={true} />
           <Certificates translation={t} />
         </div>
       )}
