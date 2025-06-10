@@ -139,7 +139,7 @@ const Index = (props) => {
                       data-aos-delay="800">
                       <div className="a-header o-content">
                         <div className="o-content__body">
-                          <h4>{translation('Headers.Location')}</h4>
+                          <h3>{translation('Headers.Location')}</h3>
                           <address>{translation('Kunciran Indah Tangerang City')}</address>
                         </div>
                       </div>
@@ -151,7 +151,7 @@ const Index = (props) => {
                       data-aos-delay="1000">
                       <div className="a-header o-content">
                         <div className="o-content__body">
-                          <h4>{translation('Headers.Phone')}</h4>
+                          <h3>{translation('Headers.Phone')}</h3>
                           <p>
                             <a
                               href="tel:+6281228883616"
@@ -176,7 +176,7 @@ const Index = (props) => {
                       data-aos-delay="1200">
                       <div className="a-header o-content">
                         <div className="o-content__body">
-                          <h4>{translation('Headers.Web')}</h4>
+                          <h3>{translation('Headers.Web')}</h3>
 
                           <p>
                             <a
@@ -215,7 +215,7 @@ const Index = (props) => {
                             href="mailto:zikriramdani13@yahoo.com"
                             target="_blank"
                             rel="noreferrer">
-                            <h4>{translation('Headers.Email')}</h4>
+                            <h3>{translation('Headers.Email')}</h3>
                             <p>
                               <span className="t-link-container__item--blended">
                                 zikriramdani13@yahoo.com
