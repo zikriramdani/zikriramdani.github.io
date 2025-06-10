@@ -44,8 +44,7 @@ const Index = (props) => {
               href="/generate-pdf?autoGenerate=true"
               // target="_blank"
               title="Download CV Zikri Ramdani"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <div className="DownloadPDF--Box">
                 {/* <i className="fa fa-2x fa-file-pdf-o" style={{ color: 'black' }}></i> */}
                 <div dangerouslySetInnerHTML={{ __html: translation('Download CV') }}></div>
@@ -85,15 +84,13 @@ const Index = (props) => {
                           <span
                             className="a-header c-brand__first-word t-title__first-word"
                             data-aos="fade-up"
-                            data-aos-delay="200"
-                          >
+                            data-aos-delay="200">
                             Zikri
                           </span>
                           <span
                             className="a-header c-brand__second-word t-title__second-word"
                             data-aos="fade-up"
-                            data-aos-delay="400"
-                          >
+                            data-aos-delay="400">
                             Ramdani
                           </span>
                         </span>
@@ -110,13 +107,12 @@ const Index = (props) => {
                   <ul
                     className="c-header__social-buttons c-social-buttons"
                     data-aos="fade-up"
-                    data-aos-delay="600"
-                  >
+                    data-aos-delay="600">
                     <li className="a-footer">
                       <a
                         className="c-social-button t-social-button"
                         href="https://zikriramdani.github.io"
-                      >
+                        aria-label="GitHub Portfolio">
                         <i className="fa fa-lg fa-dribbble"></i>
                       </a>
                     </li>
@@ -127,7 +123,7 @@ const Index = (props) => {
                         href="http://zikriramdani.blogspot.com"
                         target="_blank"
                         rel="noreferrer"
-                      >
+                        aria-label="Blogspot Blog">
                         <i className="fa fa-lg fa-dribbble"></i>
                       </a>
                     </li>
@@ -140,8 +136,7 @@ const Index = (props) => {
                     <div
                       className="o-grid__col-md-3 o-grid__col-sm-6"
                       data-aos="fade-up"
-                      data-aos-delay="800"
-                    >
+                      data-aos-delay="800">
                       <div className="a-header o-content">
                         <div className="o-content__body">
                           <h4>{translation('Headers.Location')}</h4>
@@ -153,24 +148,21 @@ const Index = (props) => {
                     <div
                       className="o-grid__col-md-3 o-grid__col-sm-6"
                       data-aos="fade-up"
-                      data-aos-delay="1000"
-                    >
+                      data-aos-delay="1000">
                       <div className="a-header o-content">
                         <div className="o-content__body">
                           <h4>{translation('Headers.Phone')}</h4>
                           <p>
                             <a
                               href="tel:+6281228883616"
-                              onClick={() => copyToClipBoard('081228883616')}
-                            >
+                              onClick={() => copyToClipBoard('081228883616')}>
                               0812-2888-3616
                             </a>
                             <br />
                             <span
                               onClick={() => copyToClipBoard('081228883616')}
                               onMouseOut={mouseOut}
-                              style={{ cursor: 'pointer' }}
-                            >
+                              style={{ cursor: 'pointer' }}>
                               {copySuccess}
                             </span>
                           </p>
@@ -181,8 +173,7 @@ const Index = (props) => {
                     <div
                       className="o-grid__col-md-3 o-grid__col-sm-6"
                       data-aos="fade-up"
-                      data-aos-delay="1200"
-                    >
+                      data-aos-delay="1200">
                       <div className="a-header o-content">
                         <div className="o-content__body">
                           <h4>{translation('Headers.Web')}</h4>
@@ -192,8 +183,7 @@ const Index = (props) => {
                               className="t-link-container"
                               href="https://zikriramdani.github.io"
                               target="_blank"
-                              rel="noreferrer"
-                            >
+                              rel="noreferrer">
                               <span className="t-link-container__item--blended">
                                 zikriramdani.github.io
                               </span>
@@ -202,8 +192,7 @@ const Index = (props) => {
                               className="t-link-container"
                               href="http://zikriramdani.blogspot.com"
                               target="_blank"
-                              rel="noreferrer"
-                            >
+                              rel="noreferrer">
                               <span className="t-link-container__item--blended">
                                 zikriramdani.blogspot.com
                               </span>
@@ -216,16 +205,14 @@ const Index = (props) => {
                     <div
                       className="o-grid__col-md-3 o-grid__col-sm-6"
                       data-aos="fade-up"
-                      data-aos-delay="1400"
-                    >
+                      data-aos-delay="1400">
                       <div className="a-header o-content">
                         <div className="o-content__body">
                           <a
                             className="t-link-container"
                             href="mailto:zikriramdani13@yahoo.com"
                             target="_blank"
-                            rel="noreferrer"
-                          >
+                            rel="noreferrer">
                             <h4>{translation('Headers.Email')}</h4>
                             <p>
                               <span className="t-link-container__item--blended">
@@ -237,8 +224,7 @@ const Index = (props) => {
                             href="mailto:zikriramdani.developer@gmail.com"
                             target="_blank"
                             className="t-link-container"
-                            rel="noreferrer"
-                          >
+                            rel="noreferrer">
                             <p>
                               <span className="t-link-container__item--blended">
                                 zikriramdani.developer@gmail.com
