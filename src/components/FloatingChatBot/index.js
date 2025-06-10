@@ -142,8 +142,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
       {/* Chat box */}
       <div
         className={`chatbot-box ${isOpen ? 'open' : ''} ${isFullPage ? 'fullpage' : ''}`}
-        style={{ bottom: bottomBox }}
-      >
+        style={{ bottom: bottomBox }}>
         <div className="chat-header">
           <span>{translation('assistant')}</span>
           <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -153,8 +152,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
             <span
               onClick={toggleFullPage}
               className="d-flex item-center"
-              style={{ cursor: 'pointer' }}
-            >
+              style={{ cursor: 'pointer' }}>
               <i
                 className={`fa fa-2x fa-${isFullPage ? 'compress' : 'expand'}`}
                 style={{ color: '#000', fontSize: '1.7rem' }}
@@ -168,8 +166,7 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
             <div
               key={i}
               className={`chat-msg ${msg.sender}`}
-              dangerouslySetInnerHTML={{ __html: msg.text }}
-            ></div>
+              dangerouslySetInnerHTML={{ __html: msg.text }}></div>
           ))}
         </div>
 
@@ -195,7 +192,11 @@ export default function ChatWidget({ bottom, bottomBox, translation }) {
       </div>
 
       {/* Toggle button */}
-      <button className="chatbot-toggle" onClick={toggleChat} style={{ bottom }}>
+      <button
+        className="chatbot-toggle"
+        onClick={toggleChat}
+        style={{ bottom }}
+        aria-label="Open Chatbot">
         <i className={`fa fa-2x fa-${isOpen ? 'close' : 'comments'}`} style={{ color: '#000' }} />
         {/* <i className="fa fa-2x fa-comments" style={{ color: '#000' }} /> */}
       </button>
