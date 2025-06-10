@@ -21,8 +21,6 @@ const Skills = (props) => {
     fetchSkillsList();
   }, [t, dispatch]);
 
-  console.log('skillsList', skillsList);
-
   return (
     <section className="o-section t-section" id="skills">
       <div className="o-section__header-bg t-section__header"></div>
@@ -33,8 +31,7 @@ const Skills = (props) => {
           <header
             className="o-section__header t-section__header"
             data-aos="fade-left"
-            data-aos-delay="0"
-          >
+            data-aos-delay="0">
             <div className="o-content a-content">
               <h2 className="o-section__heading">{translation('Skills.Skills')}</h2>
               <div className="o-content__body o-section__description">
@@ -50,8 +47,7 @@ const Skills = (props) => {
                   className="o-grid__col-xs-12 o-grid__col-md-12"
                   key={index}
                   data-aos="fade-right"
-                  data-aos-delay="0"
-                >
+                  data-aos-delay="0">
                   <div className="o-content a-content pb-0" style={{ marginBottom: '1.5rem' }}>
                     <div className="flex items-center">
                       <h3 className="text-xl font-semibold mb-0">{category.category}</h3>
