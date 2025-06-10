@@ -1,5 +1,5 @@
 export const i18n = {
-  defaultLocale: 'en',
-  locales: ['en', 'id'],
-  react: { useSuspense: false }, 
+  defaultLocale: 'id',
+  locales: ['id', 'en'],
+  react: { useSuspense: false }
 };

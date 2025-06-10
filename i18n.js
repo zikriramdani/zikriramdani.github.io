@@ -33,8 +33,17 @@ const customBackendLoader = {
   write: (language, namespace) => {}
 };
 
+// 🚀 Custom detection config
+const detectionOptions = {
+  // Only use localStorage for detection
+  order: ['localStorage'],
+  caches: ['localStorage'],
+  lookupLocalStorage: 'i18nextLng'
+};
+
 const i18nConfig = {
-  fallbackLng: 'en',
+  fallbackLng: 'id',
+  detection: detectionOptions, // <--- inject detection here
   interpolation: {
     escapeValue: false
   },
@@ -52,10 +61,20 @@ i18n
   .init(i18nConfig)
   .then(() => {
     if (!isServer) {
-      const language = localStorage.getItem('i18nextLng') || 'en';
-      i18n.changeLanguage(language);
+      // ⛔ Jangan pakai navigator.language untuk override manual di sini
+      // Karena LanguageDetector sudah pakai localStorage
+      let language = localStorage.getItem('i18nextLng');
+
+      // Jika tidak ada, set manual ke 'id'
+      if (!language) {
+        i18n.changeLanguage('id');
+        localStorage.setItem('i18nextLng', 'id');
+      }
+
+      // Pantau perubahan bahasa
       i18n.on('languageChanged', (lng) => {
-        localStorage.setItem('i18nextLng', lng);
+        const lang = lng.startsWith('id') ? 'id' : 'en';
+        localStorage.setItem('i18nextLng', lang);
       });
     }
   });
