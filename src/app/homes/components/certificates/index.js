@@ -43,8 +43,7 @@ const Certificates = (props) => {
           <header
             className="o-section__header t-section__header"
             data-aos="fade-left"
-            data-aos-delay="0"
-          >
+            data-aos-delay="0">
             <div className="o-content a-content">
               <h2 className="o-section__heading">{translation('Certificate.Certificate')}</h2>
               <div className="o-content__body o-section__description"></div>
@@ -63,8 +62,7 @@ const Certificates = (props) => {
                   className={`a-content o-grid__col-sm-6 o-grid__col-xs-6`}
                   key={i}
                   data-aos="flip-right"
-                  data-aos-delay={i + 1 + '00'}
-                >
+                  data-aos-delay={i + 1 + '00'}>
                   <a
                     className="c-image-overlay t-image-overlay js-lightbox"
                     data-lightbox-hidpi=""
@@ -72,9 +70,8 @@ const Certificates = (props) => {
                     title={item.name}
                     onClick={() => setIndex(i)}
                     rel="nofollow"
-                    href="#certificate"
-                  >
-                    <img alt={item.name} src={item.image_thumb} />
+                    href="#certificate">
+                    <img alt="" aria-hidden="true" src={item.image_thumb} />
                     <div className="c-image-overlay__content">
                       <h3>{item.name}</h3>
                       <hr className="c-image-overlay__deco-line t-image-overlay__deco-line" />
