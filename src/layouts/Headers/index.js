@@ -183,7 +183,8 @@ const Index = (props) => {
                               className="t-link-container"
                               href="https://zikriramdani.github.io"
                               target="_blank"
-                              rel="noreferrer">
+                              rel="noreferrer"
+                              aria-label="GitHub Portfolio">
                               <span className="t-link-container__item--blended">
                                 zikriramdani.github.io
                               </span>
@@ -192,7 +193,8 @@ const Index = (props) => {
                               className="t-link-container"
                               href="http://zikriramdani.blogspot.com"
                               target="_blank"
-                              rel="noreferrer">
+                              rel="noreferrer"
+                              aria-label="Blogspot Blog">
                               <span className="t-link-container__item--blended">
                                 zikriramdani.blogspot.com
                               </span>
