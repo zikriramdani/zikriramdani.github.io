@@ -21,22 +21,23 @@ export default function ReduxProvider({ children }) {
     storeRef.current = makeStore();
   }
 
+  const loadLibs = async () => {
+    const AOS = (await import('aos')).default;
+    const NProgress = (await import('nprogress')).default;
+
+    AOS.init();
+    NProgress.start();
+
+    setTimeout(() => NProgress.done(), 100);
+  };
+
   useEffect(() => {
-    AOS.init(); // Inisialisasi animasi AOS (animate on scroll)
+    loadLibs();
 
-    NProgress.start(); // Memulai progress bar saat komponen dimuat
-
-    // Menghentikan progress bar setelah jeda (agar terlihat)
-    const timer = setTimeout(() => {
-      NProgress.done(); // Mengakhiri progress bar
-    }, 100); // Delay 500ms (bisa disesuaikan)
-
-    // Membersihkan timer jika komponen unmount
     return () => {
-      clearTimeout(timer); // Hentikan timer jika tidak diperlukan
-      NProgress.done(); // Pastikan progress bar dihentikan
+      NProgress.done();
     };
-  }, []); // Hanya dijalankan sekali saat komponen pertama kali dimuat
+  }, []);
 
   return <Provider store={storeRef.current}>{children}</Provider>;
 }

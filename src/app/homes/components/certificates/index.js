@@ -71,7 +71,7 @@ const Certificates = (props) => {
                     onClick={() => setIndex(i)}
                     rel="nofollow"
                     href="#certificate">
-                    <img alt="" aria-hidden="true" src={item.image_thumb} />
+                    <img alt="" aria-hidden="true" src={item.image_thumb} loading="lazy" />
                     <div className="c-image-overlay__content">
                       <h3>{item.name}</h3>
                       <hr className="c-image-overlay__deco-line t-image-overlay__deco-line" />

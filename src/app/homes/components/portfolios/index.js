@@ -43,8 +43,7 @@ const Portfolios = (props) => {
           <header
             className="o-section__header t-section__header"
             data-aos="fade-left"
-            data-aos-delay="0"
-          >
+            data-aos-delay="0">
             <div className="o-content a-content">
               <h2 className="o-section__heading">{translation('Portfolio.Portfolio')}</h2>
               <div className="o-content__body o-section__description">
@@ -60,8 +59,7 @@ const Portfolios = (props) => {
                   className="o-grid__col-sm-6 o-grid__col-xs-6 a-content"
                   key={i}
                   data-aos="flip-right"
-                  data-aos-delay="0"
-                >
+                  data-aos-delay="0">
                   <a
                     className="c-image-overlay t-image-overlay js-lightbox"
                     data-lightbox-gallery="portfolio"
@@ -69,9 +67,8 @@ const Portfolios = (props) => {
                     title={item.name}
                     onClick={() => setIndex(i)}
                     rel="nofollow"
-                    href="#portfolio"
-                  >
-                    <img alt="" src={item.image_thumb} />
+                    href="#portfolio">
+                    <img alt="" src={item.image_thumb} loading="lazy" />
                     <div className="c-image-overlay__content">
                       <h3 dangerouslySetInnerHTML={{ __html: item.name }}></h3>
                       <hr className="c-image-overlay__deco-line t-image-overlay__deco-line" />

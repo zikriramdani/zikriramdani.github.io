@@ -28,16 +28,27 @@ const Index = (props) => {
     <div className="multi--language" data-aos="fade-left" data-aos-delay="0">
       <button
         onClick={togglePopover}
-        className="btn btn-secondary btn-popover d-flex item-center justify-content-center"
-      >
+        className="btn btn-secondary btn-popover d-flex item-center justify-content-center">
         {language === 'en' ? (
           <Fragment>
-            <img className="mr-03" src="/assets/images/EN.webp" alt="English" width="20" />
+            <img
+              className="mr-03"
+              src="/assets/images/EN.webp"
+              alt="English"
+              width="20"
+              loading="lazy"
+            />
             EN
           </Fragment>
         ) : (
           <Fragment>
-            <img className="mr-03" src="/assets/images/ID.webp" alt="Bahasa" width="20" />
+            <img
+              className="mr-03"
+              src="/assets/images/ID.webp"
+              alt="Bahasa"
+              width="20"
+              loading="lazy"
+            />
             ID
           </Fragment>
         )}
