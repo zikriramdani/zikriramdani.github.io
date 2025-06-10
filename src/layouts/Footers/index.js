@@ -170,7 +170,8 @@ const Index = (props) => {
                   <li className="a-footer a-content">
                     <a
                       href="https://zikriramdani.github.io"
-                      className="c-social-button  t-social-button">
+                      className="c-social-button  t-social-button"
+                      aria-label="GitHub Portfolio">
                       <i className="fa  fa-lg  fa-dribbble"></i>
                     </a>
                   </li>
@@ -179,7 +180,8 @@ const Index = (props) => {
                       href="http://zikriramdani.blogspot.com"
                       target="_blank"
                       className="c-social-button  t-social-button"
-                      rel="noreferrer">
+                      rel="noreferrer"
+                      aria-label="Blogspot Blog">
                       <i className="fa  fa-lg  fa-dribbble"></i>
                     </a>
                   </li>
