@@ -50,7 +50,7 @@ const Index = (props) => {
                       className="o-content__body a-content"
                       data-aos="fade-down"
                       data-aos-delay="200">
-                      <h4>{translation('Headers.Location')}</h4>
+                      <h3>{translation('Headers.Location')}</h3>
                       <address>{translation('Kunciran Indah Tangerang City')}</address>
                     </div>
                   </div>
@@ -62,7 +62,7 @@ const Index = (props) => {
                       className="o-content__body a-content"
                       data-aos="fade-down"
                       data-aos-delay="400">
-                      <h4>{translation('Headers.Phone')}</h4>
+                      <h3>{translation('Headers.Phone')}</h3>
                       <p>
                         <a href="tel:+6281228883616">0812-2888-3616</a>
                         <br />
@@ -83,7 +83,7 @@ const Index = (props) => {
                       className="o-content__body a-content"
                       data-aos="fade-down"
                       data-aos-delay="600">
-                      <h4>{translation('Headers.Web')}</h4>
+                      <h3>{translation('Headers.Web')}</h3>
                       <p>
                         <a
                           href="https://zikriramdani.github.io"
@@ -121,7 +121,7 @@ const Index = (props) => {
                         target="_blank"
                         className="t-link-container"
                         rel="noreferrer">
-                        <h4>{translation('Headers.Email')}</h4>
+                        <h3>{translation('Headers.Email')}</h3>
                         <p>
                           <span className="t-link-container__item--blended">
                             zikriramdani13@yahoo.com
