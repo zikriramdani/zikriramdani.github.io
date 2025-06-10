@@ -68,7 +68,6 @@ const Index = (props) => {
                       alt="zikriramdani"
                       className="c-avatar__img"
                       src="/assets/images/header/avatar.webp"
-                      loading="lazy"
                     />
                   </div>
                 </div>
