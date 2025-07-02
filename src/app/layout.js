@@ -6,7 +6,7 @@ import '@/styles/css/style.css';
 import '@/styles/fonts/Lato/fonts.css';
 import '@/styles/whatsapp/floating-wpp.css';
 
-import 'font-awesome/css/font-awesome.min.css';
+// import 'font-awesome/css/font-awesome.min.css';
 
 import Heads from '@/layouts/Heads';
 
