@@ -98,7 +98,7 @@ function setup_scrollreveal() {
       }
     });
     var default_delay = 175;
-    sr.reveal('.a-header', header_config, default_delay);
+    // sr.reveal('.a-header', header_config, default_delay);
     // sr.reveal('.a-content', content_config, default_delay);
     sr.reveal('.a-footer', footer_config, default_delay);
   }
