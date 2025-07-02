@@ -64,10 +64,7 @@ const Index = (props) => {
             <header className="o-section__header c-header__header t-section__header">
               <div className="c-header__inner-header">
                 <div className="c-header__avatar">
-                  <div
-                    className="a-header c-avatar d-flex justify-content-center"
-                    data-aos="fade-up"
-                    data-aos-delay="0">
+                  <div className="a-header c-avatar d-flex justify-content-center">
                     <div className="avatar-wrapper">
                       <Image
                         src="/assets/images/header/avatar.webp"
