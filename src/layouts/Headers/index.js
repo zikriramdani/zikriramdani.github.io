@@ -4,6 +4,7 @@ import LanguageSwitcher from '@/layouts/LanguageSwitcher';
 import MobileBottomNavigation from '@/layouts/MobileBottomNavigation';
 import Navigation from '@/layouts/Navigation';
 import { useTranslation } from 'next-i18next';
+import Image from 'next/image';
 
 const Index = (props) => {
   const { translation, generatePDF } = props;
@@ -63,13 +64,20 @@ const Index = (props) => {
             <header className="o-section__header c-header__header t-section__header">
               <div className="c-header__inner-header">
                 <div className="c-header__avatar">
-                  <div className="a-header c-avatar" data-aos="fade-up" data-aos-delay="0">
-                    <img
-                      alt="zikriramdani"
-                      className="c-avatar__img"
-                      src="/assets/images/header/avatar.webp"
-                      width="235"
-                    />
+                  <div
+                    className="a-header c-avatar d-flex justify-content-center"
+                    data-aos="fade-up"
+                    data-aos-delay="0">
+                    <div className="avatar-wrapper">
+                      <Image
+                        src="/assets/images/header/avatar.webp"
+                        alt="zikriramdani"
+                        fill
+                        priority
+                        className="c-avatar__img"
+                        style={{ objectFit: 'cover' }}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
